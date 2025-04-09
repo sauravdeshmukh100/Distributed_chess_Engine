@@ -1,0 +1,2330 @@
+Run process started
+Human move: d2d4
+Distributing 20 moves to 3 workers
+Serializing object: ('rnbqkb1r/pppppppp/7n/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2', 2)
+Sent task to worker 1: g8h6
+Serializing object: ('rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2', 2)
+Sent task to worker 2: g8f6
+Serializing object: ('r1bqkbnr/pppppppp/2n5/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2', 2)
+Sent task to worker 3: b8c6
+Serializing object: ('r1bqkbnr/pppppppp/n7/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2', 2)
+Sent task to worker 1: b8a6
+Serializing object: ('rnbqkbnr/ppppppp1/7p/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2', 2)
+Sent task to worker 2: h7h6
+Serializing object: ('rnbqkbnr/pppppp1p/6p1/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2', 2)
+Sent task to worker 3: g7g6
+Serializing object: ('rnbqkbnr/ppppp1pp/5p2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2', 2)
+Sent task to worker 1: f7f6
+Serializing object: ('rnbqkbnr/pppp1ppp/4p3/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2', 2)
+Sent task to worker 2: e7e6
+Serializing object: ('rnbqkbnr/ppp1pppp/3p4/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2', 2)
+Sent task to worker 3: d7d6
+Serializing object: ('rnbqkbnr/pp1ppppp/2p5/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2', 2)
+Sent task to worker 1: c7c6
+Serializing object: ('rnbqkbnr/p1pppppp/1p6/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2', 2)
+Sent task to worker 2: b7b6
+Serializing object: ('rnbqkbnr/1ppppppp/p7/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2', 2)
+Sent task to worker 3: a7a6
+Serializing object: ('rnbqkbnr/ppppppp1/8/7p/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2', 2)
+Sent task to worker 1: h7h5
+Serializing object: ('rnbqkbnr/pppppp1p/8/6p1/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2', 2)
+Sent task to worker 2: g7g5
+Serializing object: ('rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2', 2)
+Sent task to worker 3: f7f5
+Serializing object: ('rnbqkbnr/pppp1ppp/8/4p3/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2', 2)
+Sent task to worker 1: e7e5
+Serializing object: ('rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2', 2)
+Sent task to worker 2: d7d5
+Serializing object: ('rnbqkbnr/pp1ppppp/8/2p5/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2', 2)
+Sent task to worker 3: c7c5
+Serializing object: ('rnbqkbnr/p1pppppp/8/1p6/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2', 2)
+Sent task to worker 1: b7b5
+Serializing object: ('rnbqkbnr/1ppppppp/8/p7/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2', 2)
+Sent task to worker 2: a7a5
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'd4d5')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1f3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (1, 'c1g5')
+Received result: score = 1
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1f3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (1, 'd4e5')
+Received result: score = 1
+Deserialized object: (1, 'd4c5')
+Received result: score = 1
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Best move found: g8h6 with score 0
+AI move: g8h6
+Human move: f2f4
+Distributing 20 moves to 3 workers
+Serializing object: ('rnbqkbr1/pppppppp/7n/8/3P1P2/8/PPP1P1PP/RNBQKBNR w KQq - 1 3', 2)
+Sent task to worker 1: h8g8
+Serializing object: ('r1bqkb1r/pppppppp/2n4n/8/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 1 3', 2)
+Sent task to worker 2: b8c6
+Serializing object: ('r1bqkb1r/pppppppp/n6n/8/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 1 3', 2)
+Sent task to worker 3: b8a6
+Serializing object: ('rnbqkbnr/pppppppp/8/8/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 1 3', 2)
+Sent task to worker 1: h6g8
+Serializing object: ('rnbqkb1r/pppppppp/8/5n2/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 1 3', 2)
+Sent task to worker 2: h6f5
+Serializing object: ('rnbqkb1r/pppppppp/8/8/3P1Pn1/8/PPP1P1PP/RNBQKBNR w KQkq - 1 3', 2)
+Sent task to worker 3: h6g4
+Serializing object: ('rnbqkb1r/pppppp1p/6pn/8/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3', 2)
+Sent task to worker 1: g7g6
+Serializing object: ('rnbqkb1r/ppppp1pp/5p1n/8/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3', 2)
+Sent task to worker 2: f7f6
+Serializing object: ('rnbqkb1r/pppp1ppp/4p2n/8/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3', 2)
+Sent task to worker 3: e7e6
+Serializing object: ('rnbqkb1r/ppp1pppp/3p3n/8/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3', 2)
+Sent task to worker 1: d7d6
+Serializing object: ('rnbqkb1r/pp1ppppp/2p4n/8/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3', 2)
+Sent task to worker 2: c7c6
+Serializing object: ('rnbqkb1r/p1pppppp/1p5n/8/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3', 2)
+Sent task to worker 3: b7b6
+Serializing object: ('rnbqkb1r/1ppppppp/p6n/8/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3', 2)
+Sent task to worker 1: a7a6
+Serializing object: ('rnbqkb1r/pppppp1p/7n/6p1/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3', 2)
+Sent task to worker 2: g7g5
+Serializing object: ('rnbqkb1r/ppppp1pp/7n/5p2/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3', 2)
+Sent task to worker 3: f7f5
+Serializing object: ('rnbqkb1r/pppp1ppp/7n/4p3/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3', 2)
+Sent task to worker 1: e7e5
+Serializing object: ('rnbqkb1r/ppp1pppp/7n/3p4/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3', 2)
+Sent task to worker 2: d7d5
+Serializing object: ('rnbqkb1r/pp1ppppp/7n/2p5/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3', 2)
+Sent task to worker 3: c7c5
+Serializing object: ('rnbqkb1r/p1pppppp/7n/1p6/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3', 2)
+Sent task to worker 1: b7b5
+Serializing object: ('rnbqkb1r/1ppppppp/7n/p7/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3', 2)
+Sent task to worker 2: a7a5
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'd4d5')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1f3')
+Received result: score = 0
+Deserialized object: (0, 'h2h3')
+Received result: score = 0
+Deserialized object: (0, 'd4d5')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (1, 'f4e5')
+Received result: score = 1
+Deserialized object: (1, 'f4g5')
+Received result: score = 1
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (1, 'd4c5')
+Received result: score = 1
+Deserialized object: (0, 'g1f3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Best move found: h8g8 with score 0
+AI move: h8g8
+Human move: e2e3
+Distributing 19 moves to 3 workers
+Serializing object: ('rnbqkb1r/pppppppp/7n/8/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 1 4', 2)
+Sent task to worker 1: g8h8
+Serializing object: ('r1bqkbr1/pppppppp/2n4n/8/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 1 4', 2)
+Sent task to worker 2: b8c6
+Serializing object: ('r1bqkbr1/pppppppp/n6n/8/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 1 4', 2)
+Sent task to worker 3: b8a6
+Serializing object: ('rnbqkbr1/pppppppp/8/5n2/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 1 4', 2)
+Sent task to worker 1: h6f5
+Serializing object: ('rnbqkbr1/pppppppp/8/8/3P1Pn1/4P3/PPP3PP/RNBQKBNR w KQq - 1 4', 2)
+Sent task to worker 2: h6g4
+Serializing object: ('rnbqkbr1/pppppp1p/6pn/8/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 0 4', 2)
+Sent task to worker 3: g7g6
+Serializing object: ('rnbqkbr1/ppppp1pp/5p1n/8/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 0 4', 2)
+Sent task to worker 1: f7f6
+Serializing object: ('rnbqkbr1/pppp1ppp/4p2n/8/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 0 4', 2)
+Sent task to worker 2: e7e6
+Serializing object: ('rnbqkbr1/ppp1pppp/3p3n/8/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 0 4', 2)
+Sent task to worker 3: d7d6
+Serializing object: ('rnbqkbr1/pp1ppppp/2p4n/8/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 0 4', 2)
+Sent task to worker 1: c7c6
+Serializing object: ('rnbqkbr1/p1pppppp/1p5n/8/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 0 4', 2)
+Sent task to worker 2: b7b6
+Serializing object: ('rnbqkbr1/1ppppppp/p6n/8/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 0 4', 2)
+Sent task to worker 3: a7a6
+Serializing object: ('rnbqkbr1/pppppp1p/7n/6p1/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 0 4', 2)
+Sent task to worker 1: g7g5
+Serializing object: ('rnbqkbr1/ppppp1pp/7n/5p2/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 0 4', 2)
+Sent task to worker 2: f7f5
+Serializing object: ('rnbqkbr1/pppp1ppp/7n/4p3/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 0 4', 2)
+Sent task to worker 3: e7e5
+Serializing object: ('rnbqkbr1/ppp1pppp/7n/3p4/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 0 4', 2)
+Sent task to worker 1: d7d5
+Serializing object: ('rnbqkbr1/pp1ppppp/7n/2p5/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 0 4', 2)
+Sent task to worker 2: c7c5
+Serializing object: ('rnbqkbr1/p1pppppp/7n/1p6/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 0 4', 2)
+Sent task to worker 3: b7b5
+Serializing object: ('rnbqkbr1/1ppppppp/7n/p7/3P1P2/4P3/PPP3PP/RNBQKBNR w KQq - 0 4', 2)
+Sent task to worker 1: a7a5
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'd4d5')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (3, 'd1g4')
+Received result: score = 3
+Deserialized object: (-1, 'g1h3')
+Received result: score = -1
+Deserialized object: (0, 'g1f3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Deserialized object: (0, 'f4g5')
+Received result: score = 0
+Deserialized object: (1, 'd4c5')
+Received result: score = 1
+Deserialized object: (1, 'f4e5')
+Received result: score = 1
+Deserialized object: (0, 'g1f3')
+Received result: score = 0
+Deserialized object: (1, 'f1b5')
+Received result: score = 1
+Deserialized object: (0, 'g1h3')
+Received result: score = 0
+Best move found: g7g6 with score -1
+AI move: g7g6
+Human move: f1c4
+Distributing 20 moves to 3 workers
+Serializing object: ('rnbqkb1r/pppppp1p/6pn/8/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 2 5', 2)
+Sent task to worker 1: g8h8
+Serializing object: ('rnbqkb2/pppppprp/6pn/8/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 2 5', 2)
+Sent task to worker 2: g8g7
+Serializing object: ('rnbqk1r1/ppppppbp/6pn/8/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 2 5', 2)
+Sent task to worker 3: f8g7
+Serializing object: ('r1bqkbr1/pppppp1p/2n3pn/8/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 2 5', 2)
+Sent task to worker 1: b8c6
+Serializing object: ('r1bqkbr1/pppppp1p/n5pn/8/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 2 5', 2)
+Sent task to worker 2: b8a6
+Serializing object: ('rnbqkbr1/pppppp1p/6p1/5n2/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 2 5', 2)
+Sent task to worker 3: h6f5
+Serializing object: ('rnbqkbr1/pppppp1p/6p1/8/2BP1Pn1/4P3/PPP3PP/RNBQK1NR w KQq - 2 5', 2)
+Sent task to worker 1: h6g4
+Serializing object: ('rnbqkbr1/ppppp2p/5ppn/8/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 0 5', 2)
+Sent task to worker 2: f7f6
+Serializing object: ('rnbqkbr1/pppp1p1p/4p1pn/8/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 0 5', 2)
+Sent task to worker 3: e7e6
+Serializing object: ('rnbqkbr1/ppp1pp1p/3p2pn/8/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 0 5', 2)
+Sent task to worker 1: d7d6
+Serializing object: ('rnbqkbr1/pp1ppp1p/2p3pn/8/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 0 5', 2)
+Sent task to worker 2: c7c6
+Serializing object: ('rnbqkbr1/p1pppp1p/1p4pn/8/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 0 5', 2)
+Sent task to worker 3: b7b6
+Serializing object: ('rnbqkbr1/1ppppp1p/p5pn/8/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 0 5', 2)
+Sent task to worker 1: a7a6
+Serializing object: ('rnbqkbr1/pppppp1p/7n/6p1/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 0 5', 2)
+Sent task to worker 2: g6g5
+Serializing object: ('rnbqkbr1/ppppp2p/6pn/5p2/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 0 5', 2)
+Sent task to worker 3: f7f5
+Serializing object: ('rnbqkbr1/pppp1p1p/6pn/4p3/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 0 5', 2)
+Sent task to worker 1: e7e5
+Serializing object: ('rnbqkbr1/ppp1pp1p/6pn/3p4/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 0 5', 2)
+Sent task to worker 2: d7d5
+Serializing object: ('rnbqkbr1/pp1ppp1p/6pn/2p5/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 0 5', 2)
+Sent task to worker 3: c7c5
+Serializing object: ('rnbqkbr1/p1pppp1p/6pn/1p6/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 0 5', 2)
+Sent task to worker 1: b7b5
+Serializing object: ('rnbqkbr1/1ppppp1p/6pn/p7/2BP1P2/4P3/PPP3PP/RNBQK1NR w KQq - 0 5', 2)
+Sent task to worker 2: a7a5
+Deserialized object: (0, 'c4d5')
+Received result: score = 0
+Deserialized object: (0, 'c4d5')
+Received result: score = 0
+Deserialized object: (0, 'c4a6')
+Received result: score = 0
+Deserialized object: (0, 'd4d5')
+Received result: score = 0
+Deserialized object: (-1, 'c4d5')
+Received result: score = -1
+Deserialized object: (2, 'c4g8')
+Received result: score = 2
+Deserialized object: (0, 'c4d3')
+Received result: score = 0
+Deserialized object: (3, 'd1g4')
+Received result: score = 3
+Deserialized object: (-1, 'c4d5')
+Received result: score = -1
+Deserialized object: (0, 'c4d5')
+Received result: score = 0
+Deserialized object: (0, 'f4g5')
+Received result: score = 0
+Deserialized object: (0, 'c4b5')
+Received result: score = 0
+Deserialized object: (0, 'c4b5')
+Received result: score = 0
+Deserialized object: (0, 'c4d5')
+Received result: score = 0
+Deserialized object: (0, 'c4d5')
+Received result: score = 0
+Deserialized object: (0, 'c4d5')
+Received result: score = 0
+Deserialized object: (2, 'c4g8')
+Received result: score = 2
+Deserialized object: (1, 'd4c5')
+Received result: score = 1
+Deserialized object: (1, 'f4e5')
+Received result: score = 1
+Deserialized object: (1, 'c4b5')
+Received result: score = 1
+Best move found: b8a6 with score -1
+AI move: b8a6
+Human move: c4f7
+Distributing 2 moves to 3 workers
+Serializing object: ('r1bq1br1/pppppk1p/n5pn/8/3P1P2/4P3/PPP3PP/RNBQK1NR w KQ - 0 6', 2)
+Sent task to worker 1: e8f7
+Serializing object: ('r1bqkbr1/pppppn1p/n5p1/8/3P1P2/4P3/PPP3PP/RNBQK1NR w KQq - 0 6', 2)
+Sent task to worker 2: h6f7
+Deserialized object: (-2, 'g1h3')
+Received result: score = -2
+Deserialized object: (-2, 'g1h3')
+Received result: score = -2
+Best move found: e8f7 with score -2
+AI move: e8f7
+Human move: f4f5
+Distributing 23 moves to 3 workers
+Serializing object: ('r1bq1b1r/pppppk1p/n5pn/5P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 1 7', 2)
+Sent task to worker 1: g8h8
+Serializing object: ('r1bq1b2/pppppkrp/n5pn/5P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 1 7', 2)
+Sent task to worker 2: g8g7
+Serializing object: ('r1bq2r1/pppppkbp/n5pn/5P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 1 7', 2)
+Sent task to worker 3: f8g7
+Serializing object: ('r1b1qbr1/pppppk1p/n5pn/5P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 1 7', 2)
+Sent task to worker 1: d8e8
+Serializing object: ('1rbq1br1/pppppk1p/n5pn/5P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 1 7', 2)
+Sent task to worker 2: a8b8
+Serializing object: ('r1bqkbr1/ppppp2p/n5pn/5P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 1 7', 2)
+Sent task to worker 3: f7e8
+Serializing object: ('r1bq1br1/ppppp1kp/n5pn/5P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 1 7', 2)
+Sent task to worker 1: f7g7
+Serializing object: ('r1bq1br1/ppppp2p/n4kpn/5P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 1 7', 2)
+Sent task to worker 2: f7f6
+Serializing object: ('r1bq1br1/pppppk1p/n5p1/5n2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 0 7', 2)
+Sent task to worker 3: h6f5
+Serializing object: ('r1bq1br1/pppppk1p/n5p1/5P2/3P2n1/4P3/PPP3PP/RNBQK1NR w KQ - 1 7', 2)
+Sent task to worker 1: h6g4
+Serializing object: ('rnbq1br1/pppppk1p/6pn/5P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 1 7', 2)
+Sent task to worker 2: a6b8
+Serializing object: ('r1bq1br1/pppppk1p/6pn/2n2P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 1 7', 2)
+Sent task to worker 3: a6c5
+Serializing object: ('r1bq1br1/pppppk1p/6pn/5P2/1n1P4/4P3/PPP3PP/RNBQK1NR w KQ - 1 7', 2)
+Sent task to worker 1: a6b4
+Serializing object: ('r1bq1br1/pppppk1p/n6n/5p2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 0 7', 2)
+Sent task to worker 2: g6f5
+Serializing object: ('r1bq1br1/pppp1k1p/n3p1pn/5P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 0 7', 2)
+Sent task to worker 3: e7e6
+Serializing object: ('r1bq1br1/ppp1pk1p/n2p2pn/5P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 0 7', 2)
+Sent task to worker 1: d7d6
+Serializing object: ('r1bq1br1/pp1ppk1p/n1p3pn/5P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 0 7', 2)
+Sent task to worker 2: c7c6
+Serializing object: ('r1bq1br1/p1pppk1p/np4pn/5P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 0 7', 2)
+Sent task to worker 3: b7b6
+Serializing object: ('r1bq1br1/pppppk1p/n6n/5Pp1/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 0 7', 2)
+Sent task to worker 1: g6g5
+Serializing object: ('r1bq1br1/pppp1k1p/n5pn/4pP2/3P4/4P3/PPP3PP/RNBQK1NR w KQ e6 0 7', 2)
+Sent task to worker 2: e7e5
+Serializing object: ('r1bq1br1/ppp1pk1p/n5pn/3p1P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 0 7', 2)
+Sent task to worker 3: d7d5
+Serializing object: ('r1bq1br1/pp1ppk1p/n5pn/2p2P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 0 7', 2)
+Sent task to worker 1: c7c5
+Serializing object: ('r1bq1br1/p1pppk1p/n5pn/1p3P2/3P4/4P3/PPP3PP/RNBQK1NR w KQ - 0 7', 2)
+Sent task to worker 2: b7b5
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-3, 'd1f3')
+Received result: score = -3
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (0, 'd4c5')
+Received result: score = 0
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (0, 'd1g4')
+Received result: score = 0
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-3, 'd1h5')
+Received result: score = -3
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'd1h5')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Best move found: f7g7 with score -3
+AI move: f7g7
+Human move: d1d3
+Distributing 22 moves to 3 workers
+Serializing object: ('r1bq1b1r/ppppp1kp/n5pn/5P2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 3 8', 2)
+Sent task to worker 1: g8h8
+Serializing object: ('r1b1qbr1/ppppp1kp/n5pn/5P2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 3 8', 2)
+Sent task to worker 2: d8e8
+Serializing object: ('1rbq1br1/ppppp1kp/n5pn/5P2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 3 8', 2)
+Sent task to worker 3: a8b8
+Serializing object: ('r1bq1brk/ppppp2p/n5pn/5P2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 3 8', 2)
+Sent task to worker 1: g7h8
+Serializing object: ('r1bq1br1/pppppk1p/n5pn/5P2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 3 8', 2)
+Sent task to worker 2: g7f7
+Serializing object: ('r1bq1br1/ppppp2p/n4kpn/5P2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 3 8', 2)
+Sent task to worker 3: g7f6
+Serializing object: ('r1bq1br1/pppppnkp/n5p1/5P2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 3 8', 2)
+Sent task to worker 1: h6f7
+Serializing object: ('r1bq1br1/ppppp1kp/n5p1/5n2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 0 8', 2)
+Sent task to worker 2: h6f5
+Serializing object: ('r1bq1br1/ppppp1kp/n5p1/5P2/3P2n1/3QP3/PPP3PP/RNB1K1NR w KQ - 3 8', 2)
+Sent task to worker 3: h6g4
+Serializing object: ('rnbq1br1/ppppp1kp/6pn/5P2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 3 8', 2)
+Sent task to worker 1: a6b8
+Serializing object: ('r1bq1br1/ppppp1kp/6pn/2n2P2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 3 8', 2)
+Sent task to worker 2: a6c5
+Serializing object: ('r1bq1br1/ppppp1kp/6pn/5P2/1n1P4/3QP3/PPP3PP/RNB1K1NR w KQ - 3 8', 2)
+Sent task to worker 3: a6b4
+Serializing object: ('r1bq1br1/ppppp1kp/n6n/5p2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 0 8', 2)
+Sent task to worker 1: g6f5
+Serializing object: ('r1bq1br1/pppp2kp/n3p1pn/5P2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 0 8', 2)
+Sent task to worker 2: e7e6
+Serializing object: ('r1bq1br1/ppp1p1kp/n2p2pn/5P2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 0 8', 2)
+Sent task to worker 3: d7d6
+Serializing object: ('r1bq1br1/pp1pp1kp/n1p3pn/5P2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 0 8', 2)
+Sent task to worker 1: c7c6
+Serializing object: ('r1bq1br1/p1ppp1kp/np4pn/5P2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 0 8', 2)
+Sent task to worker 2: b7b6
+Serializing object: ('r1bq1br1/ppppp1kp/n6n/5Pp1/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 0 8', 2)
+Sent task to worker 3: g6g5
+Serializing object: ('r1bq1br1/pppp2kp/n5pn/4pP2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ e6 0 8', 2)
+Sent task to worker 1: e7e5
+Serializing object: ('r1bq1br1/ppp1p1kp/n5pn/3p1P2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 0 8', 2)
+Sent task to worker 2: d7d5
+Serializing object: ('r1bq1br1/pp1pp1kp/n5pn/2p2P2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 0 8', 2)
+Sent task to worker 3: c7c5
+Serializing object: ('r1bq1br1/p1ppp1kp/n5pn/1p3P2/3P4/3QP3/PPP3PP/RNB1K1NR w KQ - 0 8', 2)
+Sent task to worker 1: b7b5
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'd3c4')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-4, 'd3b5')
+Received result: score = -4
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (0, 'd4c5')
+Received result: score = 0
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-3, 'd3b5')
+Received result: score = -3
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-3, 'd3b5')
+Received result: score = -3
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-3, 'd3b5')
+Received result: score = -3
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'd3b5')
+Received result: score = -2
+Best move found: g7f6 with score -4
+AI move: g7f6
+Human move: d3c4
+Distributing 24 moves to 3 workers
+Serializing object: ('r1bq1b1r/ppppp2p/n4kpn/5P2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 5 9', 2)
+Sent task to worker 1: g8h8
+Serializing object: ('r1bq1b2/ppppp1rp/n4kpn/5P2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 5 9', 2)
+Sent task to worker 2: g8g7
+Serializing object: ('r1bq2r1/ppppp1bp/n4kpn/5P2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 5 9', 2)
+Sent task to worker 3: f8g7
+Serializing object: ('r1b1qbr1/ppppp2p/n4kpn/5P2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 5 9', 2)
+Sent task to worker 1: d8e8
+Serializing object: ('1rbq1br1/ppppp2p/n4kpn/5P2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 5 9', 2)
+Sent task to worker 2: a8b8
+Serializing object: ('r1bq1br1/pppppn1p/n4kp1/5P2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 5 9', 2)
+Sent task to worker 3: h6f7
+Serializing object: ('r1bq1br1/ppppp2p/n4kp1/5n2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 0 9', 2)
+Sent task to worker 1: h6f5
+Serializing object: ('r1bq1br1/ppppp2p/n4kp1/5P2/2QP2n1/4P3/PPP3PP/RNB1K1NR w KQ - 5 9', 2)
+Sent task to worker 2: h6g4
+Serializing object: ('r1bq1br1/ppppp1kp/n5pn/5P2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 5 9', 2)
+Sent task to worker 3: f6g7
+Serializing object: ('r1bq1br1/ppppp2p/n5pn/5Pk1/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 5 9', 2)
+Sent task to worker 1: f6g5
+Serializing object: ('r1bq1br1/ppppp2p/n5pn/5k2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 0 9', 2)
+Sent task to worker 2: f6f5
+Serializing object: ('rnbq1br1/ppppp2p/5kpn/5P2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 5 9', 2)
+Sent task to worker 3: a6b8
+Serializing object: ('r1bq1br1/ppppp2p/5kpn/2n2P2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 5 9', 2)
+Sent task to worker 1: a6c5
+Serializing object: ('r1bq1br1/ppppp2p/5kpn/5P2/1nQP4/4P3/PPP3PP/RNB1K1NR w KQ - 5 9', 2)
+Sent task to worker 2: a6b4
+Serializing object: ('r1bq1br1/ppppp2p/n4k1n/5p2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 0 9', 2)
+Sent task to worker 3: g6f5
+Serializing object: ('r1bq1br1/pppp3p/n3pkpn/5P2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 0 9', 2)
+Sent task to worker 1: e7e6
+Serializing object: ('r1bq1br1/ppp1p2p/n2p1kpn/5P2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 0 9', 2)
+Sent task to worker 2: d7d6
+Serializing object: ('r1bq1br1/pp1pp2p/n1p2kpn/5P2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 0 9', 2)
+Sent task to worker 3: c7c6
+Serializing object: ('r1bq1br1/p1ppp2p/np3kpn/5P2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 0 9', 2)
+Sent task to worker 1: b7b6
+Serializing object: ('r1bq1br1/ppppp2p/n4k1n/5Pp1/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 0 9', 2)
+Sent task to worker 2: g6g5
+Serializing object: ('r1bq1br1/pppp3p/n4kpn/4pP2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ e6 0 9', 2)
+Sent task to worker 3: e7e5
+Serializing object: ('r1bq1br1/ppp1p2p/n4kpn/3p1P2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 0 9', 2)
+Sent task to worker 1: d7d5
+Serializing object: ('r1bq1br1/pp1pp2p/n4kpn/2p2P2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 0 9', 2)
+Sent task to worker 2: c7c5
+Serializing object: ('r1bq1br1/p1ppp2p/n4kpn/1p3P2/2QP4/4P3/PPP3PP/RNB1K1NR w KQ - 0 9', 2)
+Sent task to worker 3: b7b5
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (2, 'c4g8')
+Received result: score = 2
+Deserialized object: (1, 'c4g8')
+Received result: score = 1
+Deserialized object: (-3, 'c4d5')
+Received result: score = -3
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (0, 'c4b4')
+Received result: score = 0
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (0, 'c4c5')
+Received result: score = 0
+Deserialized object: (-4, 'c4d5')
+Received result: score = -4
+Deserialized object: (-3, 'c4d5')
+Received result: score = -3
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'c4b5')
+Received result: score = -2
+Deserialized object: (-3, 'c4b5')
+Received result: score = -3
+Best move found: e7e6 with score -4
+AI move: e7e6
+Human move: c4d5
+Distributing 31 moves to 3 workers
+Serializing object: ('r1bq1b1r/pppp3p/n3pkpn/3Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 1: g8h8
+Serializing object: ('r1bq1b2/pppp2rp/n3pkpn/3Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 2: g8g7
+Serializing object: ('r1bq2r1/pppp2bp/n3pkpn/3Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 3: f8g7
+Serializing object: ('r1bq2r1/ppppb2p/n3pkpn/3Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 1: f8e7
+Serializing object: ('r1bq2r1/pppp3p/n2bpkpn/3Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 2: f8d6
+Serializing object: ('r1bq2r1/pppp3p/n3pkpn/2bQ1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 3: f8c5
+Serializing object: ('r1bq2r1/pppp3p/n3pkpn/3Q1P2/1b1P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 1: f8b4
+Serializing object: ('r1bq2r1/pppp3p/n3pkpn/3Q1P2/3P4/b3P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 2: f8a3
+Serializing object: ('r1b1qbr1/pppp3p/n3pkpn/3Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 3: d8e8
+Serializing object: ('r1b2br1/ppppq2p/n3pkpn/3Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 1: d8e7
+Serializing object: ('1rbq1br1/pppp3p/n3pkpn/3Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 2: a8b8
+Serializing object: ('r1bq1br1/pppp1n1p/n3pkp1/3Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 3: h6f7
+Serializing object: ('r1bq1br1/pppp3p/n3pkp1/3Q1n2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 10', 2)
+Sent task to worker 1: h6f5
+Serializing object: ('r1bq1br1/pppp3p/n3pkp1/3Q1P2/3P2n1/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 2: h6g4
+Serializing object: ('r1bq1br1/pppp2kp/n3p1pn/3Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 3: f6g7
+Serializing object: ('r1bq1br1/pppp1k1p/n3p1pn/3Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 1: f6f7
+Serializing object: ('r1bq1br1/ppppk2p/n3p1pn/3Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 2: f6e7
+Serializing object: ('r1bq1br1/pppp3p/n3p1pn/3Q1Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 3: f6g5
+Serializing object: ('rnbq1br1/pppp3p/4pkpn/3Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 1: a6b8
+Serializing object: ('r1bq1br1/pppp3p/4pkpn/2nQ1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 2: a6c5
+Serializing object: ('r1bq1br1/pppp3p/4pkpn/3Q1P2/1n1P4/4P3/PPP3PP/RNB1K1NR w KQ - 2 10', 2)
+Sent task to worker 3: a6b4
+Serializing object: ('r1bq1br1/pppp3p/n3pk1n/3Q1p2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 10', 2)
+Sent task to worker 1: g6f5
+Serializing object: ('r1bq1br1/pppp3p/n4kpn/3Q1p2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 10', 2)
+Sent task to worker 2: e6f5
+Serializing object: ('r1bq1br1/pppp3p/n4kpn/3p1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 10', 2)
+Sent task to worker 3: e6d5
+Serializing object: ('r1bq1br1/ppp4p/n2ppkpn/3Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 10', 2)
+Sent task to worker 1: d7d6
+Serializing object: ('r1bq1br1/pp1p3p/n1p1pkpn/3Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 10', 2)
+Sent task to worker 2: c7c6
+Serializing object: ('r1bq1br1/p1pp3p/np2pkpn/3Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 10', 2)
+Sent task to worker 3: b7b6
+Serializing object: ('r1bq1br1/pppp3p/n3pk1n/3Q1Pp1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 10', 2)
+Sent task to worker 1: g6g5
+Serializing object: ('r1bq1br1/pppp3p/n4kpn/3QpP2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 10', 2)
+Sent task to worker 2: e6e5
+Serializing object: ('r1bq1br1/pp1p3p/n3pkpn/2pQ1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 10', 2)
+Sent task to worker 3: c7c5
+Serializing object: ('r1bq1br1/p1pp3p/n3pkpn/1p1Q1P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 10', 2)
+Sent task to worker 1: b7b5
+Deserialized object: (-2, 'd5e5')
+Received result: score = -2
+Deserialized object: (-2, 'd5e5')
+Received result: score = -2
+Deserialized object: (-2, 'd5e5')
+Received result: score = -2
+Deserialized object: (-2, 'd5e5')
+Received result: score = -2
+Deserialized object: (-2, 'd5e5')
+Received result: score = -2
+Deserialized object: (-11, 'e1f2')
+Received result: score = -11
+Deserialized object: (-2, 'd5e5')
+Received result: score = -2
+Deserialized object: (-2, 'd5e5')
+Received result: score = -2
+Deserialized object: (-2, 'f5e6')
+Received result: score = -2
+Deserialized object: (-3, 'd5e5')
+Received result: score = -3
+Deserialized object: (-2, 'd5e5')
+Received result: score = -2
+Deserialized object: (-2, 'f5e6')
+Received result: score = -2
+Deserialized object: (-2, 'd5e5')
+Received result: score = -2
+Deserialized object: (-2, 'f5g6')
+Received result: score = -2
+Deserialized object: (-2, 'd5e5')
+Received result: score = -2
+Deserialized object: (-2, 'd5e5')
+Received result: score = -2
+Deserialized object: (-1, 'f5e6')
+Received result: score = -1
+Deserialized object: (-3, 'd5e5')
+Received result: score = -3
+Deserialized object: (-2, 'f5e6')
+Received result: score = -2
+Deserialized object: (-2, 'd5e5')
+Received result: score = -2
+Deserialized object: (-2, 'f5e6')
+Received result: score = -2
+Deserialized object: (-11, 'f5g6')
+Received result: score = -11
+Deserialized object: (-2, 'f5e6')
+Received result: score = -2
+Deserialized object: (-2, 'd5e5')
+Received result: score = -2
+Deserialized object: (2, 'd5a8')
+Received result: score = 2
+Deserialized object: (2, 'd5a8')
+Received result: score = 2
+Deserialized object: (-2, 'd5e5')
+Received result: score = -2
+Deserialized object: (-2, 'd5e5')
+Received result: score = -2
+Deserialized object: (-3, 'd5e5')
+Received result: score = -3
+Deserialized object: (-2, 'd5e5')
+Received result: score = -2
+Deserialized object: (-1, 'd5e5')
+Received result: score = -1
+Best move found: f8c5 with score -11
+AI move: f8c5
+Human move: d5e6
+Distributing 3 moves to 3 workers
+Serializing object: ('r1bq2r1/pppp2kp/n3Q1pn/2b2P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 11', 2)
+Sent task to worker 1: f6g7
+Serializing object: ('r1bq2r1/pppp3p/n3Q1pn/2b2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 11', 2)
+Sent task to worker 2: f6g5
+Serializing object: ('r1bq2r1/ppp4p/n3pkpn/2b2P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 11', 2)
+Sent task to worker 3: d7e6
+Deserialized object: (-1, 'e6e5')
+Received result: score = -1
+Deserialized object: (-8, 'd4c5')
+Received result: score = -8
+Deserialized object: (-1, 'g1h3')
+Received result: score = -1
+Best move found: f6g5 with score -8
+AI move: f6g5
+Human move: e6d7
+Distributing 31 moves to 3 workers
+Serializing object: ('r1bq3r/pppQ3p/n5pn/2b2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 1: g8h8
+Serializing object: ('r1bq1r2/pppQ3p/n5pn/2b2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 2: g8f8
+Serializing object: ('r1bqr3/pppQ3p/n5pn/2b2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 3: g8e8
+Serializing object: ('r1bq4/pppQ2rp/n5pn/2b2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 1: g8g7
+Serializing object: ('r1b2qr1/pppQ3p/n5pn/2b2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 2: d8f8
+Serializing object: ('r1b1q1r1/pppQ3p/n5pn/2b2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 3: d8e8
+Serializing object: ('r1b3r1/pppQq2p/n5pn/2b2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 1: d8e7
+Serializing object: ('r1b3r1/pppq3p/n5pn/2b2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 12', 2)
+Sent task to worker 2: d8d7
+Serializing object: ('r1b3r1/pppQ3p/n4qpn/2b2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 3: d8f6
+Serializing object: ('r2q2r1/pppb3p/n5pn/2b2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 12', 2)
+Sent task to worker 1: c8d7
+Serializing object: ('1rbq2r1/pppQ3p/n5pn/2b2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 2: a8b8
+Serializing object: ('r1bq2r1/pppQ1n1p/n5p1/2b2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 3: h6f7
+Serializing object: ('r1bq2r1/pppQ3p/n5p1/2b2nk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 12', 2)
+Sent task to worker 1: h6f5
+Serializing object: ('r1bq2r1/pppQ3p/n5p1/2b2Pk1/3P2n1/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 2: h6g4
+Serializing object: ('rnbq2r1/pppQ3p/6pn/2b2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 3: a6b8
+Serializing object: ('r1bq2r1/pppQ3p/6pn/2b2Pk1/1n1P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 1: a6b4
+Serializing object: ('r1bq2r1/pppQ3p/n4kpn/2b2P2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 2: g5f6
+Serializing object: ('r1bq2r1/pppQ3p/n5pn/2b2P1k/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 3: g5h5
+Serializing object: ('r1bq2r1/pppQ3p/n5pn/2b2P2/3P3k/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 1: g5h4
+Serializing object: ('r1bq2r1/pppQ3p/n5pn/2b2P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 2: g5g4
+Serializing object: ('r1bq1br1/pppQ3p/n5pn/5Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 3: c5f8
+Serializing object: ('r1bq2r1/pppQb2p/n5pn/5Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 1: c5e7
+Serializing object: ('r1bq2r1/pppQ3p/n2b2pn/5Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 2: c5d6
+Serializing object: ('r1bq2r1/pppQ3p/nb4pn/5Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 3: c5b6
+Serializing object: ('r1bq2r1/pppQ3p/n5pn/5Pk1/3b4/4P3/PPP3PP/RNB1K1NR w KQ - 0 12', 2)
+Sent task to worker 1: c5d4
+Serializing object: ('r1bq2r1/pppQ3p/n5pn/5Pk1/1b1P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 2: c5b4
+Serializing object: ('r1bq2r1/pppQ3p/n5pn/5Pk1/3P4/b3P3/PPP3PP/RNB1K1NR w KQ - 1 12', 2)
+Sent task to worker 3: c5a3
+Serializing object: ('r1bq2r1/pppQ3p/n6n/2b2pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 12', 2)
+Sent task to worker 1: g6f5
+Serializing object: ('r1bq2r1/pp1Q3p/n1p3pn/2b2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 12', 2)
+Sent task to worker 2: c7c6
+Serializing object: ('r1bq2r1/p1pQ3p/np4pn/2b2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 12', 2)
+Sent task to worker 3: b7b6
+Serializing object: ('r1bq2r1/p1pQ3p/n5pn/1pb2Pk1/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 12', 2)
+Sent task to worker 1: b7b5
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (0, 'd7h7')
+Received result: score = 0
+Deserialized object: (8, 'd7d8')
+Received result: score = 8
+Deserialized object: (0, 'd7e8')
+Received result: score = 0
+Deserialized object: (-7, 'd4c5')
+Received result: score = -7
+Deserialized object: (0, 'd7e7')
+Received result: score = 0
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (0, 'd7h7')
+Received result: score = 0
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (-7, 'd4c5')
+Received result: score = -7
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (2, 'd7f7')
+Received result: score = 2
+Deserialized object: (-1, 'd7d8')
+Received result: score = -1
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (-9, 'e1f2')
+Received result: score = -9
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (8, 'd7d8')
+Received result: score = 8
+Deserialized object: (2, 'e3d4')
+Received result: score = 2
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (-1, 'd7d8')
+Received result: score = -1
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Deserialized object: (0, 'd7d8')
+Received result: score = 0
+Best move found: g5g4 with score -9
+AI move: g5g4
+Human move: d7d8
+Distributing 27 moves to 3 workers
+Serializing object: ('r1bQ3r/ppp4p/n5pn/2b2P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 1: g8h8
+Serializing object: ('r1bQ1r2/ppp4p/n5pn/2b2P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 2: g8f8
+Serializing object: ('r1bQr3/ppp4p/n5pn/2b2P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 3: g8e8
+Serializing object: ('r1br4/ppp4p/n5pn/2b2P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 13', 2)
+Sent task to worker 1: g8d8
+Serializing object: ('r1bQ4/ppp3rp/n5pn/2b2P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 2: g8g7
+Serializing object: ('r2Q2r1/pppb3p/n5pn/2b2P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 3: c8d7
+Serializing object: ('r2Q2r1/ppp4p/n3b1pn/2b2P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 1: c8e6
+Serializing object: ('r2Q2r1/ppp4p/n5pn/2b2b2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 13', 2)
+Sent task to worker 2: c8f5
+Serializing object: ('1rbQ2r1/ppp4p/n5pn/2b2P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 3: a8b8
+Serializing object: ('r1bQ2r1/ppp2n1p/n5p1/2b2P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 1: h6f7
+Serializing object: ('r1bQ2r1/ppp4p/n5p1/2b2n2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 13', 2)
+Sent task to worker 2: h6f5
+Serializing object: ('rnbQ2r1/ppp4p/6pn/2b2P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 3: a6b8
+Serializing object: ('r1bQ2r1/ppp4p/6pn/2b2P2/1n1P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 1: a6b4
+Serializing object: ('r1bQ1br1/ppp4p/n5pn/5P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 2: c5f8
+Serializing object: ('r1bQ2r1/ppp1b2p/n5pn/5P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 3: c5e7
+Serializing object: ('r1bQ2r1/ppp4p/n2b2pn/5P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 1: c5d6
+Serializing object: ('r1bQ2r1/ppp4p/nb4pn/5P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 2: c5b6
+Serializing object: ('r1bQ2r1/ppp4p/n5pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 13', 2)
+Sent task to worker 3: c5d4
+Serializing object: ('r1bQ2r1/ppp4p/n5pn/5P2/1b1P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 1: c5b4
+Serializing object: ('r1bQ2r1/ppp4p/n5pn/5P2/3P2k1/b3P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 2: c5a3
+Serializing object: ('r1bQ2r1/ppp4p/n5pn/2b2P1k/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 1 13', 2)
+Sent task to worker 3: g4h5
+Serializing object: ('r1bQ2r1/ppp4p/n5pn/2b2k2/3P4/4P3/PPP3PP/RNB1K1NR w KQ - 0 13', 2)
+Sent task to worker 1: g4f5
+Serializing object: ('r1bQ2r1/ppp4p/n6n/2b2p2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 13', 2)
+Sent task to worker 2: g6f5
+Serializing object: ('r1bQ2r1/pp5p/n1p3pn/2b2P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 13', 2)
+Sent task to worker 3: c7c6
+Serializing object: ('r1bQ2r1/p1p4p/np4pn/2b2P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 13', 2)
+Sent task to worker 1: b7b6
+Serializing object: ('r1bQ2r1/ppp4p/n6n/2b2Pp1/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 13', 2)
+Sent task to worker 2: g6g5
+Serializing object: ('r1bQ2r1/p1p4p/n5pn/1pb2P2/3P2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 13', 2)
+Sent task to worker 3: b7b5
+Deserialized object: (13, 'd8h8')
+Received result: score = 13
+Deserialized object: (13, 'd8e8')
+Received result: score = 13
+Deserialized object: (8, 'd8d5')
+Received result: score = 8
+Deserialized object: (2, 'd4c5')
+Received result: score = 2
+Deserialized object: (11, 'd4c5')
+Received result: score = 11
+Deserialized object: (11, 'd8d7')
+Received result: score = 11
+Deserialized object: (8, 'h2h3')
+Received result: score = 8
+Deserialized object: (8, 'd8f6')
+Received result: score = 8
+Deserialized object: (12, 'd8g8')
+Received result: score = 12
+Deserialized object: (8, 'd8f6')
+Received result: score = 8
+Deserialized object: (13, 'd8g8')
+Received result: score = 13
+Deserialized object: (9, 'f5g6')
+Received result: score = 9
+Deserialized object: (9, 'd8c7')
+Received result: score = 9
+Deserialized object: (9, 'd8c7')
+Received result: score = 9
+Deserialized object: (8, 'd8e7')
+Received result: score = 8
+Deserialized object: (11, 'd8e7')
+Received result: score = 11
+Deserialized object: (8, 'd8f6')
+Received result: score = 8
+Deserialized object: (0, 'e1f2')
+Received result: score = 0
+Deserialized object: (8, 'd8f6')
+Received result: score = 8
+Deserialized object: (10, 'd8d4')
+Received result: score = 10
+Deserialized object: (8, 'd8d5')
+Received result: score = 8
+Deserialized object: (8, 'h2h3')
+Received result: score = 8
+Deserialized object: (8, 'd8f6')
+Received result: score = 8
+Deserialized object: (8, 'd8f6')
+Received result: score = 8
+Deserialized object: (8, 'd8f6')
+Received result: score = 8
+Deserialized object: (8, 'd8f6')
+Received result: score = 8
+Deserialized object: (8, 'd8f6')
+Received result: score = 8
+Best move found: c5d4 with score 0
+AI move: c5d4
+Human move: d8c8
+Distributing 31 moves to 3 workers
+Serializing object: ('r1Q4r/ppp4p/n5pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 1: g8h8
+Serializing object: ('r1Q2r2/ppp4p/n5pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 2: g8f8
+Serializing object: ('r1Q1r3/ppp4p/n5pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 3: g8e8
+Serializing object: ('r1Qr4/ppp4p/n5pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 1: g8d8
+Serializing object: ('r1r5/ppp4p/n5pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 14', 2)
+Sent task to worker 2: g8c8
+Serializing object: ('r1Q5/ppp3rp/n5pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 3: g8g7
+Serializing object: ('2r3r1/ppp4p/n5pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 14', 2)
+Sent task to worker 1: a8c8
+Serializing object: ('1rQ3r1/ppp4p/n5pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 2: a8b8
+Serializing object: ('r1Q3r1/ppp2n1p/n5p1/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 3: h6f7
+Serializing object: ('r1Q3r1/ppp4p/n5p1/5n2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 14', 2)
+Sent task to worker 1: h6f5
+Serializing object: ('rnQ3r1/ppp4p/6pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 2: a6b8
+Serializing object: ('r1Q3r1/ppp4p/6pn/2n2P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 3: a6c5
+Serializing object: ('r1Q3r1/ppp4p/6pn/5P2/1n1b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 1: a6b4
+Serializing object: ('r1Q3r1/ppp4p/n5pn/5P1k/3b4/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 2: g4h5
+Serializing object: ('r1Q3r1/ppp4p/n5pn/5Pk1/3b4/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 3: g4g5
+Serializing object: ('r1Q3r1/ppp4p/n5pn/5P2/3b3k/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 1: g4h4
+Serializing object: ('r1Q3rb/ppp4p/n5pn/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 2: d4h8
+Serializing object: ('r1Q3r1/ppp3bp/n5pn/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 3: d4g7
+Serializing object: ('r1Q3r1/ppp4p/n4bpn/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 1: d4f6
+Serializing object: ('r1Q3r1/ppp4p/nb4pn/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 2: d4b6
+Serializing object: ('r1Q3r1/ppp4p/n5pn/4bP2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 3: d4e5
+Serializing object: ('r1Q3r1/ppp4p/n5pn/2b2P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 1: d4c5
+Serializing object: ('r1Q3r1/ppp4p/n5pn/5P2/6k1/4b3/PPP3PP/RNB1K1NR w KQ - 0 14', 2)
+Sent task to worker 2: d4e3
+Serializing object: ('r1Q3r1/ppp4p/n5pn/5P2/6k1/2b1P3/PPP3PP/RNB1K1NR w KQ - 1 14', 2)
+Sent task to worker 3: d4c3
+Serializing object: ('r1Q3r1/ppp4p/n5pn/5P2/6k1/4P3/PbP3PP/RNB1K1NR w KQ - 0 14', 2)
+Sent task to worker 1: d4b2
+Serializing object: ('r1Q3r1/ppp4p/n6n/5p2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 14', 2)
+Sent task to worker 2: g6f5
+Serializing object: ('r1Q3r1/pp5p/n1p3pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 14', 2)
+Sent task to worker 3: c7c6
+Serializing object: ('r1Q3r1/p1p4p/np4pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 14', 2)
+Sent task to worker 1: b7b6
+Serializing object: ('r1Q3r1/ppp4p/n6n/5Pp1/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 14', 2)
+Sent task to worker 2: g6g5
+Serializing object: ('r1Q3r1/pp5p/n5pn/2p2P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 14', 2)
+Sent task to worker 3: c7c5
+Serializing object: ('r1Q3r1/p1p4p/n5pn/1p3P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 14', 2)
+Sent task to worker 1: b7b5
+Deserialized object: (11, 'c8b7')
+Received result: score = 11
+Deserialized object: (11, 'c8b7')
+Received result: score = 11
+Deserialized object: (11, 'c8b7')
+Received result: score = 11
+Deserialized object: (4, 'e3d4')
+Received result: score = 4
+Deserialized object: (15, 'c8a8')
+Received result: score = 15
+Deserialized object: (11, 'c8b7')
+Received result: score = 11
+Deserialized object: (11, 'h2h3')
+Received result: score = 11
+Deserialized object: (4, 'e3d4')
+Received result: score = 4
+Deserialized object: (11, 'c8b7')
+Received result: score = 11
+Deserialized object: (11, 'c8c7')
+Received result: score = 11
+Deserialized object: (11, 'c8c7')
+Received result: score = 11
+Deserialized object: (10, 'c8b7')
+Received result: score = 10
+Deserialized object: (11, 'c8b7')
+Received result: score = 11
+Deserialized object: (14, 'e3d4')
+Received result: score = 14
+Deserialized object: (11, 'c8b7')
+Received result: score = 11
+Deserialized object: (11, 'c8c7')
+Received result: score = 11
+Deserialized object: (11, 'c8b7')
+Received result: score = 11
+Deserialized object: (11, 'c8b7')
+Received result: score = 11
+Deserialized object: (11, 'c8b7')
+Received result: score = 11
+Deserialized object: (10, 'h2h3')
+Received result: score = 10
+Deserialized object: (11, 'c8b7')
+Received result: score = 11
+Deserialized object: (11, 'c8b7')
+Received result: score = 11
+Deserialized object: (10, 'c8b7')
+Received result: score = 10
+Deserialized object: (5, 'b1c3')
+Received result: score = 5
+Deserialized object: (11, 'c8b7')
+Received result: score = 11
+Deserialized object: (11, 'c8b7')
+Received result: score = 11
+Deserialized object: (10, 'h2h3')
+Received result: score = 10
+Deserialized object: (11, 'c8b7')
+Received result: score = 11
+Deserialized object: (13, 'c8a6')
+Received result: score = 13
+Deserialized object: (11, 'c8b7')
+Received result: score = 11
+Deserialized object: (13, 'c8a6')
+Received result: score = 13
+Best move found: g8d8 with score 4
+AI move: g8d8
+Human move: c8d8
+Distributing 26 moves to 3 workers
+Serializing object: ('3r4/ppp4p/n5pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 15', 2)
+Sent task to worker 1: a8d8
+Serializing object: ('2rQ4/ppp4p/n5pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 15', 2)
+Sent task to worker 2: a8c8
+Serializing object: ('1r1Q4/ppp4p/n5pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 15', 2)
+Sent task to worker 3: a8b8
+Serializing object: ('r2Q2n1/ppp4p/n5p1/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 15', 2)
+Sent task to worker 1: h6g8
+Serializing object: ('r2Q4/ppp2n1p/n5p1/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 15', 2)
+Sent task to worker 2: h6f7
+Serializing object: ('r2Q4/ppp4p/n5p1/5n2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 15', 2)
+Sent task to worker 3: h6f5
+Serializing object: ('rn1Q4/ppp4p/6pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 15', 2)
+Sent task to worker 1: a6b8
+Serializing object: ('r2Q4/ppp4p/6pn/2n2P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 15', 2)
+Sent task to worker 2: a6c5
+Serializing object: ('r2Q4/ppp4p/6pn/5P2/1n1b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 15', 2)
+Sent task to worker 3: a6b4
+Serializing object: ('r2Q4/ppp4p/n5pn/5P1k/3b4/4P3/PPP3PP/RNB1K1NR w KQ - 1 15', 2)
+Sent task to worker 1: g4h5
+Serializing object: ('r2Q4/ppp4p/n5pn/5k2/3b4/4P3/PPP3PP/RNB1K1NR w KQ - 0 15', 2)
+Sent task to worker 2: g4f5
+Serializing object: ('r2Q3b/ppp4p/n5pn/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 15', 2)
+Sent task to worker 3: d4h8
+Serializing object: ('r2Q4/ppp3bp/n5pn/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 15', 2)
+Sent task to worker 1: d4g7
+Serializing object: ('r2Q4/ppp4p/n4bpn/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 15', 2)
+Sent task to worker 2: d4f6
+Serializing object: ('r2Q4/ppp4p/nb4pn/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 15', 2)
+Sent task to worker 3: d4b6
+Serializing object: ('r2Q4/ppp4p/n5pn/4bP2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 15', 2)
+Sent task to worker 1: d4e5
+Serializing object: ('r2Q4/ppp4p/n5pn/2b2P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 15', 2)
+Sent task to worker 2: d4c5
+Serializing object: ('r2Q4/ppp4p/n5pn/5P2/6k1/4b3/PPP3PP/RNB1K1NR w KQ - 0 15', 2)
+Sent task to worker 3: d4e3
+Serializing object: ('r2Q4/ppp4p/n5pn/5P2/6k1/2b1P3/PPP3PP/RNB1K1NR w KQ - 1 15', 2)
+Sent task to worker 1: d4c3
+Serializing object: ('r2Q4/ppp4p/n5pn/5P2/6k1/4P3/PbP3PP/RNB1K1NR w KQ - 0 15', 2)
+Sent task to worker 2: d4b2
+Serializing object: ('r2Q4/ppp4p/n6n/5p2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 15', 2)
+Sent task to worker 3: g6f5
+Serializing object: ('r2Q4/pp5p/n1p3pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 15', 2)
+Sent task to worker 1: c7c6
+Serializing object: ('r2Q4/p1p4p/np4pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 15', 2)
+Sent task to worker 2: b7b6
+Serializing object: ('r2Q4/ppp4p/n6n/5Pp1/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 15', 2)
+Sent task to worker 3: g6g5
+Serializing object: ('r2Q4/pp5p/n5pn/2p2P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 15', 2)
+Sent task to worker 1: c7c5
+Serializing object: ('r2Q4/p1p4p/n5pn/1p3P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 15', 2)
+Sent task to worker 2: b7b5
+Deserialized object: (20, 'd8c8')
+Received result: score = 20
+Deserialized object: (9, 'e3d4')
+Received result: score = 9
+Deserialized object: (20, 'd8a8')
+Received result: score = 20
+Deserialized object: (18, 'd8d4')
+Received result: score = 18
+Deserialized object: (20, 'd8a8')
+Received result: score = 20
+Deserialized object: (20, 'd8a8')
+Received result: score = 20
+Deserialized object: (19, 'd8a8')
+Received result: score = 19
+Deserialized object: (19, 'd8a8')
+Received result: score = 19
+Deserialized object: (18, 'd8d4')
+Received result: score = 18
+Deserialized object: (20, 'd8a8')
+Received result: score = 20
+Deserialized object: (20, 'd8a8')
+Received result: score = 20
+Deserialized object: (20, 'd8a8')
+Received result: score = 20
+Deserialized object: (20, 'd8a8')
+Received result: score = 20
+Deserialized object: (20, 'd8a8')
+Received result: score = 20
+Deserialized object: (20, 'd8a8')
+Received result: score = 20
+Deserialized object: (15, 'd8a8')
+Received result: score = 15
+Deserialized object: (20, 'd8a8')
+Received result: score = 20
+Deserialized object: (20, 'd8a8')
+Received result: score = 20
+Deserialized object: (20, 'd8a8')
+Received result: score = 20
+Deserialized object: (10, 'b1c3')
+Received result: score = 10
+Deserialized object: (20, 'd8a8')
+Received result: score = 20
+Deserialized object: (17, 'd8a8')
+Received result: score = 17
+Deserialized object: (20, 'd8a8')
+Received result: score = 20
+Deserialized object: (19, 'd8a8')
+Received result: score = 19
+Deserialized object: (20, 'd8a8')
+Received result: score = 20
+Deserialized object: (20, 'd8a8')
+Received result: score = 20
+Best move found: a8c8 with score 9
+AI move: a8c8
+Human move: d8c8
+Distributing 24 moves to 3 workers
+Serializing object: ('2Q3n1/ppp4p/n5p1/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 16', 2)
+Sent task to worker 1: h6g8
+Serializing object: ('2Q5/ppp2n1p/n5p1/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 16', 2)
+Sent task to worker 2: h6f7
+Serializing object: ('2Q5/ppp4p/n5p1/5n2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 16', 2)
+Sent task to worker 3: h6f5
+Serializing object: ('1nQ5/ppp4p/6pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 16', 2)
+Sent task to worker 1: a6b8
+Serializing object: ('2Q5/ppp4p/6pn/2n2P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 16', 2)
+Sent task to worker 2: a6c5
+Serializing object: ('2Q5/ppp4p/6pn/5P2/1n1b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 16', 2)
+Sent task to worker 3: a6b4
+Serializing object: ('2Q5/ppp4p/n5pn/5P1k/3b4/4P3/PPP3PP/RNB1K1NR w KQ - 1 16', 2)
+Sent task to worker 1: g4h5
+Serializing object: ('2Q5/ppp4p/n5pn/5Pk1/3b4/4P3/PPP3PP/RNB1K1NR w KQ - 1 16', 2)
+Sent task to worker 2: g4g5
+Serializing object: ('2Q5/ppp4p/n5pn/5P2/3b3k/4P3/PPP3PP/RNB1K1NR w KQ - 1 16', 2)
+Sent task to worker 3: g4h4
+Serializing object: ('2Q4b/ppp4p/n5pn/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 16', 2)
+Sent task to worker 1: d4h8
+Serializing object: ('2Q5/ppp3bp/n5pn/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 16', 2)
+Sent task to worker 2: d4g7
+Serializing object: ('2Q5/ppp4p/n4bpn/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 16', 2)
+Sent task to worker 3: d4f6
+Serializing object: ('2Q5/ppp4p/nb4pn/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 16', 2)
+Sent task to worker 1: d4b6
+Serializing object: ('2Q5/ppp4p/n5pn/4bP2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 16', 2)
+Sent task to worker 2: d4e5
+Serializing object: ('2Q5/ppp4p/n5pn/2b2P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 16', 2)
+Sent task to worker 3: d4c5
+Serializing object: ('2Q5/ppp4p/n5pn/5P2/6k1/4b3/PPP3PP/RNB1K1NR w KQ - 0 16', 2)
+Sent task to worker 1: d4e3
+Serializing object: ('2Q5/ppp4p/n5pn/5P2/6k1/2b1P3/PPP3PP/RNB1K1NR w KQ - 1 16', 2)
+Sent task to worker 2: d4c3
+Serializing object: ('2Q5/ppp4p/n5pn/5P2/6k1/4P3/PbP3PP/RNB1K1NR w KQ - 0 16', 2)
+Sent task to worker 3: d4b2
+Serializing object: ('2Q5/ppp4p/n6n/5p2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 16', 2)
+Sent task to worker 1: g6f5
+Serializing object: ('2Q5/pp5p/n1p3pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 16', 2)
+Sent task to worker 2: c7c6
+Serializing object: ('2Q5/p1p4p/np4pn/5P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 16', 2)
+Sent task to worker 3: b7b6
+Serializing object: ('2Q5/ppp4p/n6n/5Pp1/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 16', 2)
+Sent task to worker 1: g6g5
+Serializing object: ('2Q5/pp5p/n5pn/2p2P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 16', 2)
+Sent task to worker 2: c7c5
+Serializing object: ('2Q5/p1p4p/n5pn/1p3P2/3b2k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 16', 2)
+Sent task to worker 3: b7b5
+Deserialized object: (23, 'c8g8')
+Received result: score = 23
+Deserialized object: (23, 'e3d4')
+Received result: score = 23
+Deserialized object: (23, 'e3d4')
+Received result: score = 23
+Deserialized object: (23, 'c8b8')
+Received result: score = 23
+Deserialized object: (23, 'e3d4')
+Received result: score = 23
+Deserialized object: (23, 'e3d4')
+Received result: score = 23
+Deserialized object: (23, 'e3d4')
+Received result: score = 23
+Deserialized object: (23, 'e3d4')
+Received result: score = 23
+Deserialized object: (24, 'e3d4')
+Received result: score = 24
+Deserialized object: (22, 'f5g6')
+Received result: score = 22
+Deserialized object: (23, 'c8h8')
+Received result: score = 23
+Deserialized object: (22, 'f5g6')
+Received result: score = 22
+Deserialized object: (22, 'f5g6')
+Received result: score = 22
+Deserialized object: (22, 'f5g6')
+Received result: score = 22
+Deserialized object: (22, 'c1b2')
+Received result: score = 22
+Deserialized object: (22, 'f5g6')
+Received result: score = 22
+Deserialized object: (23, 'b1c3')
+Received result: score = 23
+Deserialized object: (23, 'c8a6')
+Received result: score = 23
+Deserialized object: (22, 'c1e3')
+Received result: score = 22
+Deserialized object: (23, 'e3d4')
+Received result: score = 23
+Deserialized object: (23, 'c8a6')
+Received result: score = 23
+Deserialized object: (23, 'e3d4')
+Received result: score = 23
+Deserialized object: (23, 'e3d4')
+Received result: score = 23
+Deserialized object: (23, 'e3d4')
+Received result: score = 23
+Best move found: d4h8 with score 22
+AI move: d4h8
+Human move: c8h8
+Distributing 16 moves to 3 workers
+Serializing object: ('6nQ/ppp4p/n5p1/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 17', 2)
+Sent task to worker 1: h6g8
+Serializing object: ('7Q/ppp2n1p/n5p1/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 17', 2)
+Sent task to worker 2: h6f7
+Serializing object: ('7Q/ppp4p/n5p1/5n2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 17', 2)
+Sent task to worker 3: h6f5
+Serializing object: ('1n5Q/ppp4p/6pn/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 17', 2)
+Sent task to worker 1: a6b8
+Serializing object: ('7Q/ppp4p/6pn/2n2P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 17', 2)
+Sent task to worker 2: a6c5
+Serializing object: ('7Q/ppp4p/6pn/5P2/1n4k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 17', 2)
+Sent task to worker 3: a6b4
+Serializing object: ('7Q/ppp4p/n5pn/5P1k/8/4P3/PPP3PP/RNB1K1NR w KQ - 1 17', 2)
+Sent task to worker 1: g4h5
+Serializing object: ('7Q/ppp4p/n5pn/5Pk1/8/4P3/PPP3PP/RNB1K1NR w KQ - 1 17', 2)
+Sent task to worker 2: g4g5
+Serializing object: ('7Q/ppp4p/n5pn/5k2/8/4P3/PPP3PP/RNB1K1NR w KQ - 0 17', 2)
+Sent task to worker 3: g4f5
+Serializing object: ('7Q/ppp4p/n5pn/5P2/7k/4P3/PPP3PP/RNB1K1NR w KQ - 1 17', 2)
+Sent task to worker 1: g4h4
+Serializing object: ('7Q/ppp4p/n6n/5p2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 17', 2)
+Sent task to worker 2: g6f5
+Serializing object: ('7Q/pp5p/n1p3pn/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 17', 2)
+Sent task to worker 3: c7c6
+Serializing object: ('7Q/p1p4p/np4pn/5P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 17', 2)
+Sent task to worker 1: b7b6
+Serializing object: ('7Q/ppp4p/n6n/5Pp1/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 17', 2)
+Sent task to worker 2: g6g5
+Serializing object: ('7Q/pp5p/n5pn/2p2P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 17', 2)
+Sent task to worker 3: c7c5
+Serializing object: ('7Q/p1p4p/n5pn/1p3P2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 17', 2)
+Sent task to worker 1: b7b5
+Deserialized object: (26, 'h8g8')
+Received result: score = 26
+Deserialized object: (24, 'h8h7')
+Received result: score = 24
+Deserialized object: (23, 'h8c8')
+Received result: score = 23
+Deserialized object: (26, 'h8b8')
+Received result: score = 26
+Deserialized object: (24, 'h8h7')
+Received result: score = 24
+Deserialized object: (24, 'h8h7')
+Received result: score = 24
+Deserialized object: (24, 'h8h7')
+Received result: score = 24
+Deserialized object: (24, 'h8h7')
+Received result: score = 24
+Deserialized object: (24, 'h8d8')
+Received result: score = 24
+Deserialized object: (24, 'h8h7')
+Received result: score = 24
+Deserialized object: (24, 'h8h7')
+Received result: score = 24
+Deserialized object: (24, 'h8h7')
+Received result: score = 24
+Deserialized object: (24, 'h8h7')
+Received result: score = 24
+Deserialized object: (24, 'h8h7')
+Received result: score = 24
+Deserialized object: (24, 'h8h7')
+Received result: score = 24
+Deserialized object: (24, 'h8h7')
+Received result: score = 24
+Best move found: h6f5 with score 23
+AI move: h6f5
+Human move: h8h7
+Distributing 17 moves to 3 workers
+Serializing object: ('1n6/ppp4Q/6p1/5n2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 18', 2)
+Sent task to worker 1: a6b8
+Serializing object: ('8/ppp4Q/6p1/2n2n2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 18', 2)
+Sent task to worker 2: a6c5
+Serializing object: ('8/ppp4Q/6p1/5n2/1n4k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 18', 2)
+Sent task to worker 3: a6b4
+Serializing object: ('8/ppp3nQ/n5p1/8/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 18', 2)
+Sent task to worker 1: f5g7
+Serializing object: ('8/ppp1n2Q/n5p1/8/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 18', 2)
+Sent task to worker 2: f5e7
+Serializing object: ('8/ppp4Q/n5pn/8/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 18', 2)
+Sent task to worker 3: f5h6
+Serializing object: ('8/ppp4Q/n2n2p1/8/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 18', 2)
+Sent task to worker 1: f5d6
+Serializing object: ('8/ppp4Q/n5p1/8/6kn/4P3/PPP3PP/RNB1K1NR w KQ - 1 18', 2)
+Sent task to worker 2: f5h4
+Serializing object: ('8/ppp4Q/n5p1/8/3n2k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 18', 2)
+Sent task to worker 3: f5d4
+Serializing object: ('8/ppp4Q/n5p1/8/6k1/4P1n1/PPP3PP/RNB1K1NR w KQ - 1 18', 2)
+Sent task to worker 1: f5g3
+Serializing object: ('8/ppp4Q/n5p1/8/6k1/4n3/PPP3PP/RNB1K1NR w KQ - 0 18', 2)
+Sent task to worker 2: f5e3
+Serializing object: ('8/ppp4Q/n5p1/5nk1/8/4P3/PPP3PP/RNB1K1NR w KQ - 1 18', 2)
+Sent task to worker 3: g4g5
+Serializing object: ('8/pp5Q/n1p3p1/5n2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 18', 2)
+Sent task to worker 1: c7c6
+Serializing object: ('8/p1p4Q/np4p1/5n2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 18', 2)
+Sent task to worker 2: b7b6
+Serializing object: ('8/ppp4Q/n7/5np1/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 18', 2)
+Sent task to worker 3: g6g5
+Serializing object: ('8/pp5Q/n5p1/2p2n2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 18', 2)
+Sent task to worker 1: c7c5
+Serializing object: ('8/p1p4Q/n5p1/1p3n2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 0 18', 2)
+Sent task to worker 2: b7b5
+Deserialized object: (25, 'h7g6')
+Received result: score = 25
+Deserialized object: (25, 'h7g6')
+Received result: score = 25
+Deserialized object: (25, 'h7g6')
+Received result: score = 25
+Deserialized object: (27, 'h7g7')
+Received result: score = 27
+Deserialized object: (27, 'h7e7')
+Received result: score = 27
+Deserialized object: (27, 'h7h6')
+Received result: score = 27
+Deserialized object: (24, 'h7d7')
+Received result: score = 24
+Deserialized object: (25, 'h7g6')
+Received result: score = 25
+Deserialized object: (27, 'e3d4')
+Received result: score = 27
+Deserialized object: (26, 'c1e3')
+Received result: score = 26
+Deserialized object: (26, 'h2g3')
+Received result: score = 26
+Deserialized object: (25, 'h7g6')
+Received result: score = 25
+Deserialized object: (24, 'g1h3')
+Received result: score = 24
+Deserialized object: (25, 'h7g6')
+Received result: score = 25
+Deserialized object: (25, 'h7g6')
+Received result: score = 25
+Deserialized object: (24, 'h7d7')
+Received result: score = 24
+Deserialized object: (25, 'h7g6')
+Received result: score = 25
+Best move found: f5d6 with score 24
+AI move: f5d6
+Human move: h7d7
+Distributing 4 moves to 3 workers
+Serializing object: ('8/pppQ4/n2n2p1/7k/8/4P3/PPP3PP/RNB1K1NR w KQ - 3 19', 2)
+Sent task to worker 1: g4h5
+Serializing object: ('8/pppQ4/n2n2p1/6k1/8/4P3/PPP3PP/RNB1K1NR w KQ - 3 19', 2)
+Sent task to worker 2: g4g5
+Serializing object: ('8/pppQ4/n2n2p1/8/7k/4P3/PPP3PP/RNB1K1NR w KQ - 3 19', 2)
+Sent task to worker 3: g4h4
+Serializing object: ('8/pppQ4/n5p1/5n2/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 3 19', 2)
+Sent task to worker 1: d6f5
+Deserialized object: (24, 'd7d8')
+Received result: score = 24
+Deserialized object: (24, 'd7d8')
+Received result: score = 24
+Deserialized object: (24, 'd7d8')
+Received result: score = 24
+Deserialized object: (24, 'd7c8')
+Received result: score = 24
+Best move found: g4h5 with score 24
+AI move: g4h5
+Human move: d7d6
+Distributing 13 moves to 3 workers
+Serializing object: ('1n6/ppp5/3Q2p1/7k/8/4P3/PPP3PP/RNB1K1NR w KQ - 1 20', 2)
+Sent task to worker 1: a6b8
+Serializing object: ('8/ppp5/3Q2p1/2n4k/8/4P3/PPP3PP/RNB1K1NR w KQ - 1 20', 2)
+Sent task to worker 2: a6c5
+Serializing object: ('8/ppp5/3Q2p1/7k/1n6/4P3/PPP3PP/RNB1K1NR w KQ - 1 20', 2)
+Sent task to worker 3: a6b4
+Serializing object: ('8/ppp5/n2Q2pk/8/8/4P3/PPP3PP/RNB1K1NR w KQ - 1 20', 2)
+Sent task to worker 1: h5h6
+Serializing object: ('8/ppp5/n2Q2p1/6k1/8/4P3/PPP3PP/RNB1K1NR w KQ - 1 20', 2)
+Sent task to worker 2: h5g5
+Serializing object: ('8/ppp5/n2Q2p1/8/7k/4P3/PPP3PP/RNB1K1NR w KQ - 1 20', 2)
+Sent task to worker 3: h5h4
+Serializing object: ('8/ppp5/n2Q2p1/8/6k1/4P3/PPP3PP/RNB1K1NR w KQ - 1 20', 2)
+Sent task to worker 1: h5g4
+Serializing object: ('8/pp6/n2p2p1/7k/8/4P3/PPP3PP/RNB1K1NR w KQ - 0 20', 2)
+Sent task to worker 2: c7d6
+Serializing object: ('8/pp6/n1pQ2p1/7k/8/4P3/PPP3PP/RNB1K1NR w KQ - 0 20', 2)
+Sent task to worker 3: c7c6
+Serializing object: ('8/p1p5/np1Q2p1/7k/8/4P3/PPP3PP/RNB1K1NR w KQ - 0 20', 2)
+Sent task to worker 1: b7b6
+Serializing object: ('8/ppp5/n2Q4/6pk/8/4P3/PPP3PP/RNB1K1NR w KQ - 0 20', 2)
+Sent task to worker 2: g6g5
+Serializing object: ('8/pp6/n2Q2p1/2p4k/8/4P3/PPP3PP/RNB1K1NR w KQ - 0 20', 2)
+Sent task to worker 3: c7c5
+Serializing object: ('8/p1p5/n2Q2p1/1p5k/8/4P3/PPP3PP/RNB1K1NR w KQ - 0 20', 2)
+Sent task to worker 1: b7b5
+Deserialized object: (30, 'd6c5')
+Received result: score = 30
+Deserialized object: (28, 'd6c7')
+Received result: score = 28
+Deserialized object: (30, 'd6b4')
+Received result: score = 30
+Deserialized object: (27, 'd6f8')
+Received result: score = 27
+Deserialized object: (28, 'd6g6')
+Received result: score = 28
+Deserialized object: (18, 'g1h3')
+Received result: score = 18
+Deserialized object: (27, 'd6f8')
+Received result: score = 27
+Deserialized object: (27, 'd6f8')
+Received result: score = 27
+Deserialized object: (27, 'd6f8')
+Received result: score = 27
+Deserialized object: (28, 'd6g6')
+Received result: score = 28
+Deserialized object: (27, 'd6f8')
+Received result: score = 27
+Deserialized object: (27, 'd6f8')
+Received result: score = 27
+Deserialized object: (30, 'd6a6')
+Received result: score = 30
+Best move found: h5h4 with score 18
+AI move: h5h4
+Human move: d6d4
+Distributing 2 moves to 3 workers
+Serializing object: ('8/ppp5/n5p1/7k/3Q4/4P3/PPP3PP/RNB1K1NR w KQ - 3 21', 2)
+Sent task to worker 1: h4h5
+Serializing object: ('8/ppp5/n5p1/6k1/3Q4/4P3/PPP3PP/RNB1K1NR w KQ - 3 21', 2)
+Sent task to worker 2: h4g5
+Deserialized object: (28, 'd4a7')
+Received result: score = 28
+Deserialized object: (28, 'd4a7')
+Received result: score = 28
+Best move found: h4h5 with score 28
+AI move: h4h5
+Human move: d4h4
+Distributing 1 moves to 3 workers
+Serializing object: ('8/ppp5/n5p1/8/7k/4P3/PPP3PP/RNB1K1NR w KQ - 0 22', 2)
+Sent task to worker 1: h5h4
+Deserialized object: (18, 'g1h3')
+Received result: score = 18
+Best move found: h5h4 with score 18
+AI move: h5h4
+Human move: g2g3
+Distributing 3 moves to 3 workers
+Serializing object: ('8/ppp5/n5p1/7k/8/4P1P1/PPP4P/RNB1K1NR w KQ - 1 23', 2)
+Sent task to worker 1: h4h5
+Serializing object: ('8/ppp5/n5p1/6k1/8/4P1P1/PPP4P/RNB1K1NR w KQ - 1 23', 2)
+Sent task to worker 2: h4g5
+Serializing object: ('8/ppp5/n5p1/8/6k1/4P1P1/PPP4P/RNB1K1NR w KQ - 1 23', 2)
+Sent task to worker 3: h4g4
+Deserialized object: (18, 'g1h3')
+Received result: score = 18
+Deserialized object: (18, 'g1h3')
+Received result: score = 18
+Deserialized object: (18, 'g1e2')
+Received result: score = 18
+Best move found: h4h5 with score 18
+AI move: h4h5
+Human move: g3g4
+Distributing 4 moves to 3 workers
+Serializing object: ('8/ppp5/n5pk/8/6P1/4P3/PPP4P/RNB1K1NR w KQ - 1 24', 2)
+Sent task to worker 1: h5h6
+Serializing object: ('8/ppp5/n5p1/6k1/6P1/4P3/PPP4P/RNB1K1NR w KQ - 1 24', 2)
+Sent task to worker 2: h5g5
+Serializing object: ('8/ppp5/n5p1/8/6Pk/4P3/PPP4P/RNB1K1NR w KQ - 1 24', 2)
+Sent task to worker 3: h5h4
+Serializing object: ('8/ppp5/n5p1/8/6k1/4P3/PPP4P/RNB1K1NR w KQ - 0 24', 2)
+Sent task to worker 1: h5g4
+Deserialized object: (18, 'g1h3')
+Received result: score = 18
+Deserialized object: (18, 'h2h3')
+Received result: score = 18
+Deserialized object: (18, 'h2h3')
+Received result: score = 18
+Deserialized object: (17, 'g1e2')
+Received result: score = 17
+Best move found: h5g4 with score 17
+AI move: h5g4
+Human move: h2h3
+Distributing 5 moves to 3 workers
+Serializing object: ('8/ppp5/n5p1/7k/8/4P2P/PPP5/RNB1K1NR w KQ - 1 25', 2)
+Sent task to worker 1: g4h5
+Serializing object: ('8/ppp5/n5p1/6k1/8/4P2P/PPP5/RNB1K1NR w KQ - 1 25', 2)
+Sent task to worker 2: g4g5
+Serializing object: ('8/ppp5/n5p1/5k2/8/4P2P/PPP5/RNB1K1NR w KQ - 1 25', 2)
+Sent task to worker 3: g4f5
+Serializing object: ('8/ppp5/n5p1/8/7k/4P2P/PPP5/RNB1K1NR w KQ - 1 25', 2)
+Sent task to worker 1: g4h4
+Serializing object: ('8/ppp5/n5p1/8/8/4P1kP/PPP5/RNB1K1NR w KQ - 1 25', 2)
+Sent task to worker 2: g4g3
+Deserialized object: (17, 'h1h2')
+Received result: score = 17
+Deserialized object: (17, 'h1h2')
+Received result: score = 17
+Deserialized object: (17, 'h1h2')
+Received result: score = 17
+Deserialized object: (17, 'g1e2')
+Received result: score = 17
+Deserialized object: (17, 'h1h2')
+Received result: score = 17
+Best move found: g4h5 with score 17
+AI move: g4h5
+Human move: h3h4
+Distributing 10 moves to 3 workers
+Serializing object: ('1n6/ppp5/6p1/7k/7P/4P3/PPP5/RNB1K1NR w KQ - 1 26', 2)
+Sent task to worker 1: a6b8
+Serializing object: ('8/ppp5/6p1/2n4k/7P/4P3/PPP5/RNB1K1NR w KQ - 1 26', 2)
+Sent task to worker 2: a6c5
+Serializing object: ('8/ppp5/6p1/7k/1n5P/4P3/PPP5/RNB1K1NR w KQ - 1 26', 2)
+Sent task to worker 3: a6b4
+Serializing object: ('8/ppp5/n5pk/8/7P/4P3/PPP5/RNB1K1NR w KQ - 1 26', 2)
+Sent task to worker 1: h5h6
+Serializing object: ('8/ppp5/n5p1/8/6kP/4P3/PPP5/RNB1K1NR w KQ - 1 26', 2)
+Sent task to worker 2: h5g4
+Serializing object: ('8/pp6/n1p3p1/7k/7P/4P3/PPP5/RNB1K1NR w KQ - 0 26', 2)
+Sent task to worker 3: c7c6
+Serializing object: ('8/p1p5/np4p1/7k/7P/4P3/PPP5/RNB1K1NR w KQ - 0 26', 2)
+Sent task to worker 1: b7b6
+Serializing object: ('8/ppp5/n7/6pk/7P/4P3/PPP5/RNB1K1NR w KQ - 0 26', 2)
+Sent task to worker 2: g6g5
+Serializing object: ('8/pp6/n5p1/2p4k/7P/4P3/PPP5/RNB1K1NR w KQ - 0 26', 2)
+Sent task to worker 3: c7c5
+Serializing object: ('8/p1p5/n5p1/1p5k/7P/4P3/PPP5/RNB1K1NR w KQ - 0 26', 2)
+Sent task to worker 1: b7b5
+Deserialized object: (17, 'h1h3')
+Received result: score = 17
+Deserialized object: (17, 'h1h3')
+Received result: score = 17
+Deserialized object: (17, 'h1h3')
+Received result: score = 17
+Deserialized object: (17, 'h1h3')
+Received result: score = 17
+Deserialized object: (17, 'h1h3')
+Received result: score = 17
+Deserialized object: (16, 'h1h3')
+Received result: score = 16
+Deserialized object: (17, 'h1h3')
+Received result: score = 17
+Deserialized object: (17, 'h1h3')
+Received result: score = 17
+Deserialized object: (17, 'h4g5')
+Received result: score = 17
+Deserialized object: (17, 'h1h3')
+Received result: score = 17
+Best move found: c7c6 with score 16
+AI move: c7c6
+Human move: e1f2
+Distributing 10 moves to 3 workers
+Serializing object: ('1n6/pp6/2p3p1/7k/7P/4P3/PPP2K2/RNB3NR w - - 2 27', 2)
+Sent task to worker 1: a6b8
+Serializing object: ('8/ppn5/2p3p1/7k/7P/4P3/PPP2K2/RNB3NR w - - 2 27', 2)
+Sent task to worker 2: a6c7
+Serializing object: ('8/pp6/2p3p1/2n4k/7P/4P3/PPP2K2/RNB3NR w - - 2 27', 2)
+Sent task to worker 3: a6c5
+Serializing object: ('8/pp6/2p3p1/7k/1n5P/4P3/PPP2K2/RNB3NR w - - 2 27', 2)
+Sent task to worker 1: a6b4
+Serializing object: ('8/pp6/n1p3pk/8/7P/4P3/PPP2K2/RNB3NR w - - 2 27', 2)
+Sent task to worker 2: h5h6
+Serializing object: ('8/pp6/n1p3p1/8/6kP/4P3/PPP2K2/RNB3NR w - - 2 27', 2)
+Sent task to worker 3: h5g4
+Serializing object: ('8/p7/npp3p1/7k/7P/4P3/PPP2K2/RNB3NR w - - 0 27', 2)
+Sent task to worker 1: b7b6
+Serializing object: ('8/pp6/n1p5/6pk/7P/4P3/PPP2K2/RNB3NR w - - 0 27', 2)
+Sent task to worker 2: g6g5
+Serializing object: ('8/pp6/n5p1/2p4k/7P/4P3/PPP2K2/RNB3NR w - - 0 27', 2)
+Sent task to worker 3: c6c5
+Serializing object: ('8/p7/n1p3p1/1p5k/7P/4P3/PPP2K2/RNB3NR w - - 0 27', 2)
+Sent task to worker 1: b7b5
+Deserialized object: (17, 'f2g3')
+Received result: score = 17
+Deserialized object: (17, 'f2g3')
+Received result: score = 17
+Deserialized object: (17, 'f2g3')
+Received result: score = 17
+Deserialized object: (17, 'f2g2')
+Received result: score = 17
+Deserialized object: (16, 'f2g3')
+Received result: score = 16
+Deserialized object: (17, 'f2g3')
+Received result: score = 17
+Deserialized object: (17, 'f2g3')
+Received result: score = 17
+Deserialized object: (17, 'f2g3')
+Received result: score = 17
+Deserialized object: (17, 'f2g3')
+Received result: score = 17
+Deserialized object: (17, 'h4g5')
+Received result: score = 17
+Best move found: h5h6 with score 16
+AI move: h5h6
+Human move: f2g3
+Distributing 11 moves to 3 workers
+Serializing object: ('8/pp5k/n1p3p1/8/7P/4P1K1/PPP5/RNB3NR w - - 4 28', 2)
+Sent task to worker 1: h6h7
+Serializing object: ('8/pp4k1/n1p3p1/8/7P/4P1K1/PPP5/RNB3NR w - - 4 28', 2)
+Sent task to worker 2: h6g7
+Serializing object: ('8/pp6/n1p3p1/7k/7P/4P1K1/PPP5/RNB3NR w - - 4 28', 2)
+Sent task to worker 3: h6h5
+Serializing object: ('1n6/pp6/2p3pk/8/7P/4P1K1/PPP5/RNB3NR w - - 4 28', 2)
+Sent task to worker 1: a6b8
+Serializing object: ('8/ppn5/2p3pk/8/7P/4P1K1/PPP5/RNB3NR w - - 4 28', 2)
+Sent task to worker 2: a6c7
+Serializing object: ('8/pp6/2p3pk/2n5/7P/4P1K1/PPP5/RNB3NR w - - 4 28', 2)
+Sent task to worker 3: a6c5
+Serializing object: ('8/pp6/2p3pk/8/1n5P/4P1K1/PPP5/RNB3NR w - - 4 28', 2)
+Sent task to worker 1: a6b4
+Serializing object: ('8/p7/npp3pk/8/7P/4P1K1/PPP5/RNB3NR w - - 0 28', 2)
+Sent task to worker 2: b7b6
+Serializing object: ('8/pp6/n1p4k/6p1/7P/4P1K1/PPP5/RNB3NR w - - 0 28', 2)
+Sent task to worker 3: g6g5
+Serializing object: ('8/pp6/n5pk/2p5/7P/4P1K1/PPP5/RNB3NR w - - 0 28', 2)
+Sent task to worker 1: c6c5
+Serializing object: ('8/p7/n1p3pk/1p6/7P/4P1K1/PPP5/RNB3NR w - - 0 28', 2)
+Sent task to worker 2: b7b5
+Deserialized object: (17, 'g3g4')
+Received result: score = 17
+Deserialized object: (17, 'g3g4')
+Received result: score = 17
+Deserialized object: (17, 'g3f4')
+Received result: score = 17
+Deserialized object: (17, 'g3g4')
+Received result: score = 17
+Deserialized object: (17, 'g3g4')
+Received result: score = 17
+Deserialized object: (17, 'g3g4')
+Received result: score = 17
+Deserialized object: (17, 'h4g5')
+Received result: score = 17
+Deserialized object: (17, 'g3g4')
+Received result: score = 17
+Deserialized object: (17, 'e3e4')
+Received result: score = 17
+Deserialized object: (17, 'g3g4')
+Received result: score = 17
+Deserialized object: (17, 'g3g4')
+Received result: score = 17
+Best move found: h6h7 with score 17
+AI move: h6h7
+Human move: g3g4
+Distributing 12 moves to 3 workers
+Serializing object: ('7k/pp6/n1p3p1/8/6KP/4P3/PPP5/RNB3NR w - - 6 29', 2)
+Sent task to worker 1: h7h8
+Serializing object: ('6k1/pp6/n1p3p1/8/6KP/4P3/PPP5/RNB3NR w - - 6 29', 2)
+Sent task to worker 2: h7g8
+Serializing object: ('8/pp4k1/n1p3p1/8/6KP/4P3/PPP5/RNB3NR w - - 6 29', 2)
+Sent task to worker 3: h7g7
+Serializing object: ('8/pp6/n1p3pk/8/6KP/4P3/PPP5/RNB3NR w - - 6 29', 2)
+Sent task to worker 1: h7h6
+Serializing object: ('1n6/pp5k/2p3p1/8/6KP/4P3/PPP5/RNB3NR w - - 6 29', 2)
+Sent task to worker 2: a6b8
+Serializing object: ('8/ppn4k/2p3p1/8/6KP/4P3/PPP5/RNB3NR w - - 6 29', 2)
+Sent task to worker 3: a6c7
+Serializing object: ('8/pp5k/2p3p1/2n5/6KP/4P3/PPP5/RNB3NR w - - 6 29', 2)
+Sent task to worker 1: a6c5
+Serializing object: ('8/pp5k/2p3p1/8/1n4KP/4P3/PPP5/RNB3NR w - - 6 29', 2)
+Sent task to worker 2: a6b4
+Serializing object: ('8/p6k/npp3p1/8/6KP/4P3/PPP5/RNB3NR w - - 0 29', 2)
+Sent task to worker 3: b7b6
+Serializing object: ('8/pp5k/n1p5/6p1/6KP/4P3/PPP5/RNB3NR w - - 0 29', 2)
+Sent task to worker 1: g6g5
+Serializing object: ('8/pp5k/n5p1/2p5/6KP/4P3/PPP5/RNB3NR w - - 0 29', 2)
+Sent task to worker 2: c6c5
+Serializing object: ('8/p6k/n1p3p1/1p6/6KP/4P3/PPP5/RNB3NR w - - 0 29', 2)
+Sent task to worker 3: b7b5
+Deserialized object: (17, 'g4g5')
+Received result: score = 17
+Deserialized object: (17, 'g4g5')
+Received result: score = 17
+Deserialized object: (17, 'g4g5')
+Received result: score = 17
+Deserialized object: (17, 'g4f4')
+Received result: score = 17
+Deserialized object: (17, 'g4g5')
+Received result: score = 17
+Deserialized object: (17, 'g4g5')
+Received result: score = 17
+Deserialized object: (17, 'g4g5')
+Received result: score = 17
+Deserialized object: (17, 'g4g5')
+Received result: score = 17
+Deserialized object: (18, 'g4g5')
+Received result: score = 18
+Deserialized object: (17, 'g4g5')
+Received result: score = 17
+Deserialized object: (16, 'g4g5')
+Received result: score = 16
+Deserialized object: (17, 'g4g5')
+Received result: score = 17
+Best move found: c6c5 with score 16
+AI move: c6c5
+Human move: g4g5
+Distributing 9 moves to 3 workers
+Serializing object: ('7k/pp6/n5p1/2p3K1/7P/4P3/PPP5/RNB3NR w - - 2 30', 2)
+Sent task to worker 1: h7h8
+Serializing object: ('6k1/pp6/n5p1/2p3K1/7P/4P3/PPP5/RNB3NR w - - 2 30', 2)
+Sent task to worker 2: h7g8
+Serializing object: ('8/pp4k1/n5p1/2p3K1/7P/4P3/PPP5/RNB3NR w - - 2 30', 2)
+Sent task to worker 3: h7g7
+Serializing object: ('1n6/pp5k/6p1/2p3K1/7P/4P3/PPP5/RNB3NR w - - 2 30', 2)
+Sent task to worker 1: a6b8
+Serializing object: ('8/ppn4k/6p1/2p3K1/7P/4P3/PPP5/RNB3NR w - - 2 30', 2)
+Sent task to worker 2: a6c7
+Serializing object: ('8/pp5k/6p1/2p3K1/1n5P/4P3/PPP5/RNB3NR w - - 2 30', 2)
+Sent task to worker 3: a6b4
+Serializing object: ('8/p6k/np4p1/2p3K1/7P/4P3/PPP5/RNB3NR w - - 0 30', 2)
+Sent task to worker 1: b7b6
+Serializing object: ('8/pp5k/n5p1/6K1/2p4P/4P3/PPP5/RNB3NR w - - 0 30', 2)
+Sent task to worker 2: c5c4
+Serializing object: ('8/p6k/n5p1/1pp3K1/7P/4P3/PPP5/RNB3NR w - - 0 30', 2)
+Sent task to worker 3: b7b5
+Deserialized object: (18, 'g5g6')
+Received result: score = 18
+Deserialized object: (17, 'g5g4')
+Received result: score = 17
+Deserialized object: (18, 'g5g6')
+Received result: score = 18
+Deserialized object: (17, 'g5f6')
+Received result: score = 17
+Deserialized object: (17, 'g5f6')
+Received result: score = 17
+Deserialized object: (17, 'g5f6')
+Received result: score = 17
+Deserialized object: (16, 'g5f6')
+Received result: score = 16
+Deserialized object: (17, 'g5f6')
+Received result: score = 17
+Deserialized object: (17, 'g5f6')
+Received result: score = 17
+Best move found: b7b6 with score 16
+AI move: b7b6
+Human move: g5f6
+Distributing 9 moves to 3 workers
+Serializing object: ('7k/p7/np3Kp1/2p5/7P/4P3/PPP5/RNB3NR w - - 2 31', 2)
+Sent task to worker 1: h7h8
+Serializing object: ('6k1/p7/np3Kp1/2p5/7P/4P3/PPP5/RNB3NR w - - 2 31', 2)
+Sent task to worker 2: h7g8
+Serializing object: ('8/p7/np3Kpk/2p5/7P/4P3/PPP5/RNB3NR w - - 2 31', 2)
+Sent task to worker 3: h7h6
+Serializing object: ('1n6/p6k/1p3Kp1/2p5/7P/4P3/PPP5/RNB3NR w - - 2 31', 2)
+Sent task to worker 1: a6b8
+Serializing object: ('8/p1n4k/1p3Kp1/2p5/7P/4P3/PPP5/RNB3NR w - - 2 31', 2)
+Sent task to worker 2: a6c7
+Serializing object: ('8/p6k/1p3Kp1/2p5/1n5P/4P3/PPP5/RNB3NR w - - 2 31', 2)
+Sent task to worker 3: a6b4
+Serializing object: ('8/p6k/np3K2/2p3p1/7P/4P3/PPP5/RNB3NR w - - 0 31', 2)
+Sent task to worker 1: g6g5
+Serializing object: ('8/p6k/n4Kp1/1pp5/7P/4P3/PPP5/RNB3NR w - - 0 31', 2)
+Sent task to worker 2: b6b5
+Serializing object: ('8/p6k/np3Kp1/8/2p4P/4P3/PPP5/RNB3NR w - - 0 31', 2)
+Sent task to worker 3: c5c4
+Deserialized object: (18, 'f6g6')
+Received result: score = 18
+Deserialized object: (18, 'f6g6')
+Received result: score = 18
+Deserialized object: (17, 'f6f7')
+Received result: score = 17
+Deserialized object: (17, 'f6f7')
+Received result: score = 17
+Deserialized object: (17, 'f6f7')
+Received result: score = 17
+Deserialized object: (16, 'f6f7')
+Received result: score = 16
+Deserialized object: (17, 'f6f7')
+Received result: score = 17
+Deserialized object: (18, 'f6g5')
+Received result: score = 18
+Deserialized object: (17, 'f6f7')
+Received result: score = 17
+Best move found: a6b4 with score 16
+AI move: a6b4
+Human move: f6f7
+Distributing 13 moves to 3 workers
+Serializing object: ('7k/p4K2/1p4p1/2p5/1n5P/4P3/PPP5/RNB3NR w - - 4 32', 2)
+Sent task to worker 1: h7h8
+Serializing object: ('8/p4K2/1p4pk/2p5/1n5P/4P3/PPP5/RNB3NR w - - 4 32', 2)
+Sent task to worker 2: h7h6
+Serializing object: ('8/p4K1k/1pn3p1/2p5/7P/4P3/PPP5/RNB3NR w - - 4 32', 2)
+Sent task to worker 3: b4c6
+Serializing object: ('8/p4K1k/np4p1/2p5/7P/4P3/PPP5/RNB3NR w - - 4 32', 2)
+Sent task to worker 1: b4a6
+Serializing object: ('8/p4K1k/1p4p1/2pn4/7P/4P3/PPP5/RNB3NR w - - 4 32', 2)
+Sent task to worker 2: b4d5
+Serializing object: ('8/p4K1k/1p4p1/2p5/7P/3nP3/PPP5/RNB3NR w - - 4 32', 2)
+Sent task to worker 3: b4d3
+Serializing object: ('8/p4K1k/1p4p1/2p5/7P/4P3/PPn5/RNB3NR w - - 0 32', 2)
+Sent task to worker 1: b4c2
+Serializing object: ('8/p4K1k/1p4p1/2p5/7P/4P3/nPP5/RNB3NR w - - 0 32', 2)
+Sent task to worker 2: b4a2
+Serializing object: ('8/5K1k/pp4p1/2p5/1n5P/4P3/PPP5/RNB3NR w - - 0 32', 2)
+Sent task to worker 3: a7a6
+Serializing object: ('8/p4K1k/1p6/2p3p1/1n5P/4P3/PPP5/RNB3NR w - - 0 32', 2)
+Sent task to worker 1: g6g5
+Serializing object: ('8/p4K1k/6p1/1pp5/1n5P/4P3/PPP5/RNB3NR w - - 0 32', 2)
+Sent task to worker 2: b6b5
+Serializing object: ('8/p4K1k/1p4p1/8/1np4P/4P3/PPP5/RNB3NR w - - 0 32', 2)
+Sent task to worker 3: c5c4
+Serializing object: ('8/5K1k/1p4p1/p1p5/1n5P/4P3/PPP5/RNB3NR w - - 0 32', 2)
+Sent task to worker 1: a7a5
+Deserialized object: (17, 'f7g6')
+Received result: score = 17
+Deserialized object: (17, 'f7f8')
+Received result: score = 17
+Deserialized object: (17, 'f7f8')
+Received result: score = 17
+Deserialized object: (17, 'e3e4')
+Received result: score = 17
+Deserialized object: (20, 'c2d3')
+Received result: score = 20
+Deserialized object: (17, 'e3e4')
+Received result: score = 17
+Deserialized object: (11, 'f7f8')
+Received result: score = 11
+Deserialized object: (16, 'f7f8')
+Received result: score = 16
+Deserialized object: (19, 'a1a2')
+Received result: score = 19
+Deserialized object: (18, 'h4g5')
+Received result: score = 18
+Deserialized object: (16, 'f7f8')
+Received result: score = 16
+Deserialized object: (16, 'f7f8')
+Received result: score = 16
+Deserialized object: (16, 'f7f8')
+Received result: score = 16
+Best move found: b4c2 with score 11
+AI move: b4c2
+Human move: h4h5
+Distributing 14 moves to 3 workers
+Serializing object: ('7k/p4K2/1p4p1/2p4P/8/4P3/PPn5/RNB3NR w - - 1 33', 2)
+Sent task to worker 1: h7h8
+Serializing object: ('8/p4K2/1p4pk/2p4P/8/4P3/PPn5/RNB3NR w - - 1 33', 2)
+Sent task to worker 2: h7h6
+Serializing object: ('8/p4K1k/1p4p1/2p4P/3n4/4P3/PP6/RNB3NR w - - 1 33', 2)
+Sent task to worker 3: c2d4
+Serializing object: ('8/p4K1k/1p4p1/2p4P/1n6/4P3/PP6/RNB3NR w - - 1 33', 2)
+Sent task to worker 1: c2b4
+Serializing object: ('8/p4K1k/1p4p1/2p4P/8/4n3/PP6/RNB3NR w - - 0 33', 2)
+Sent task to worker 2: c2e3
+Serializing object: ('8/p4K1k/1p4p1/2p4P/8/n3P3/PP6/RNB3NR w - - 1 33', 2)
+Sent task to worker 3: c2a3
+Serializing object: ('8/p4K1k/1p4p1/2p4P/8/4P3/PP6/RNB1n1NR w - - 1 33', 2)
+Sent task to worker 1: c2e1
+Serializing object: ('8/p4K1k/1p4p1/2p4P/8/4P3/PP6/nNB3NR w - - 0 33', 2)
+Sent task to worker 2: c2a1
+Serializing object: ('8/p4K1k/1p6/2p4p/8/4P3/PPn5/RNB3NR w - - 0 33', 2)
+Sent task to worker 3: g6h5
+Serializing object: ('8/5K1k/pp4p1/2p4P/8/4P3/PPn5/RNB3NR w - - 0 33', 2)
+Sent task to worker 1: a7a6
+Serializing object: ('8/p4K1k/1p6/2p3pP/8/4P3/PPn5/RNB3NR w - - 0 33', 2)
+Sent task to worker 2: g6g5
+Serializing object: ('8/p4K1k/6p1/1pp4P/8/4P3/PPn5/RNB3NR w - - 0 33', 2)
+Sent task to worker 3: b6b5
+Serializing object: ('8/p4K1k/1p4p1/7P/2p5/4P3/PPn5/RNB3NR w - - 0 33', 2)
+Sent task to worker 1: c5c4
+Serializing object: ('8/5K1k/1p4p1/p1p4P/8/4P3/PPn5/RNB3NR w - - 0 33', 2)
+Sent task to worker 2: a7a5
+Deserialized object: (17, 'h5g6')
+Received result: score = 17
+Deserialized object: (17, 'h5g6')
+Received result: score = 17
+Deserialized object: (18, 'e3d4')
+Received result: score = 18
+Deserialized object: (17, 'c1e3')
+Received result: score = 17
+Deserialized object: (18, 'b1a3')
+Received result: score = 18
+Deserialized object: (17, 'h5g6')
+Received result: score = 17
+Deserialized object: (16, 'h1h5')
+Received result: score = 16
+Deserialized object: (12, 'h5g6')
+Received result: score = 12
+Deserialized object: (17, 'h5g6')
+Received result: score = 17
+Deserialized object: (17, 'h5g6')
+Received result: score = 17
+Deserialized object: (11, 'f7f8')
+Received result: score = 11
+Deserialized object: (17, 'h5g6')
+Received result: score = 17
+Deserialized object: (17, 'h5g6')
+Received result: score = 17
+Deserialized object: (17, 'h5g6')
+Received result: score = 17
+Best move found: g6g5 with score 11
+AI move: g6g5
+Human move: h5h6
+Distributing 12 moves to 3 workers
+Serializing object: ('7k/p4K2/1p5P/2p3p1/8/4P3/PPn5/RNB3NR w - - 1 34', 2)
+Sent task to worker 1: h7h8
+Serializing object: ('8/p4K1k/1p5P/2p3p1/3n4/4P3/PP6/RNB3NR w - - 1 34', 2)
+Sent task to worker 2: c2d4
+Serializing object: ('8/p4K1k/1p5P/2p3p1/1n6/4P3/PP6/RNB3NR w - - 1 34', 2)
+Sent task to worker 3: c2b4
+Serializing object: ('8/p4K1k/1p5P/2p3p1/8/4n3/PP6/RNB3NR w - - 0 34', 2)
+Sent task to worker 1: c2e3
+Serializing object: ('8/p4K1k/1p5P/2p3p1/8/n3P3/PP6/RNB3NR w - - 1 34', 2)
+Sent task to worker 2: c2a3
+Serializing object: ('8/p4K1k/1p5P/2p3p1/8/4P3/PP6/RNB1n1NR w - - 1 34', 2)
+Sent task to worker 3: c2e1
+Serializing object: ('8/p4K1k/1p5P/2p3p1/8/4P3/PP6/nNB3NR w - - 0 34', 2)
+Sent task to worker 1: c2a1
+Serializing object: ('8/5K1k/pp5P/2p3p1/8/4P3/PPn5/RNB3NR w - - 0 34', 2)
+Sent task to worker 2: a7a6
+Serializing object: ('8/p4K1k/7P/1pp3p1/8/4P3/PPn5/RNB3NR w - - 0 34', 2)
+Sent task to worker 3: b6b5
+Serializing object: ('8/p4K1k/1p5P/2p5/6p1/4P3/PPn5/RNB3NR w - - 0 34', 2)
+Sent task to worker 1: g5g4
+Serializing object: ('8/p4K1k/1p5P/6p1/2p5/4P3/PPn5/RNB3NR w - - 0 34', 2)
+Sent task to worker 2: c5c4
+Serializing object: ('8/5K1k/1p5P/p1p3p1/8/4P3/PPn5/RNB3NR w - - 0 34', 2)
+Sent task to worker 3: a7a5
+Deserialized object: (18, 'e3d4')
+Received result: score = 18
+Deserialized object: (19, 'b1a3')
+Received result: score = 19
+Deserialized object: (16, 'a2a3')
+Received result: score = 16
+Deserialized object: (11, 'f7f8')
+Received result: score = 11
+Deserialized object: (16, 'f7f8')
+Received result: score = 16
+Deserialized object: (18, 'c1e3')
+Received result: score = 18
+Deserialized object: (11, 'f7f8')
+Received result: score = 11
+Deserialized object: (11, 'f7f8')
+Received result: score = 11
+Deserialized object: (11, 'f7f8')
+Received result: score = 11
+Deserialized object: (11, 'f7f8')
+Received result: score = 11
+Deserialized object: (11, 'f7f8')
+Received result: score = 11
+Deserialized object: (11, 'f7f8')
+Received result: score = 11
+Best move found: c2e3 with score 11
+AI move: c2e3
+Human move: f7f8
+Distributing 15 moves to 3 workers
+Serializing object: ('5K1k/p7/1p5P/2p3p1/8/4n3/PP6/RNB3NR w - - 2 35', 2)
+Sent task to worker 1: h7h8
+Serializing object: ('5K2/p7/1p4kP/2p3p1/8/4n3/PP6/RNB3NR w - - 2 35', 2)
+Sent task to worker 2: h7g6
+Serializing object: ('5K2/p6k/1p5P/2p2np1/8/8/PP6/RNB3NR w - - 2 35', 2)
+Sent task to worker 3: e3f5
+Serializing object: ('5K2/p6k/1p5P/2pn2p1/8/8/PP6/RNB3NR w - - 2 35', 2)
+Sent task to worker 1: e3d5
+Serializing object: ('5K2/p6k/1p5P/2p3p1/6n1/8/PP6/RNB3NR w - - 2 35', 2)
+Sent task to worker 2: e3g4
+Serializing object: ('5K2/p6k/1p5P/2p3p1/2n5/8/PP6/RNB3NR w - - 2 35', 2)
+Sent task to worker 3: e3c4
+Serializing object: ('5K2/p6k/1p5P/2p3p1/8/8/PP4n1/RNB3NR w - - 2 35', 2)
+Sent task to worker 1: e3g2
+Serializing object: ('5K2/p6k/1p5P/2p3p1/8/8/PPn5/RNB3NR w - - 2 35', 2)
+Sent task to worker 2: e3c2
+Serializing object: ('5K2/p6k/1p5P/2p3p1/8/8/PP6/RNB2nNR w - - 2 35', 2)
+Sent task to worker 3: e3f1
+Serializing object: ('5K2/p6k/1p5P/2p3p1/8/8/PP6/RNBn2NR w - - 2 35', 2)
+Sent task to worker 1: e3d1
+Serializing object: ('5K2/7k/pp5P/2p3p1/8/4n3/PP6/RNB3NR w - - 0 35', 2)
+Sent task to worker 2: a7a6
+Serializing object: ('5K2/p6k/7P/1pp3p1/8/4n3/PP6/RNB3NR w - - 0 35', 2)
+Sent task to worker 3: b6b5
+Serializing object: ('5K2/p6k/1p5P/2p5/6p1/4n3/PP6/RNB3NR w - - 0 35', 2)
+Sent task to worker 1: g5g4
+Serializing object: ('5K2/p6k/1p5P/6p1/2p5/4n3/PP6/RNB3NR w - - 0 35', 2)
+Sent task to worker 2: c5c4
+Serializing object: ('5K2/7k/1p5P/p1p3p1/8/4n3/PP6/RNB3NR w - - 0 35', 2)
+Sent task to worker 3: a7a5
+Deserialized object: (18, 'c1e3')
+Received result: score = 18
+Deserialized object: (18, 'c1e3')
+Received result: score = 18
+Deserialized object: (15, 'c1g5')
+Received result: score = 15
+Deserialized object: (15, 'c1g5')
+Received result: score = 15
+Deserialized object: (16, 'c1g5')
+Received result: score = 16
+Deserialized object: (16, 'c1g5')
+Received result: score = 16
+Deserialized object: (15, 'c1g5')
+Received result: score = 15
+Deserialized object: (15, 'c1g5')
+Received result: score = 15
+Deserialized object: (18, 'c1e3')
+Received result: score = 18
+Deserialized object: (11, 'c1g5')
+Received result: score = 11
+Deserialized object: (16, 'c1g5')
+Received result: score = 16
+Deserialized object: (18, 'c1e3')
+Received result: score = 18
+Deserialized object: (18, 'c1e3')
+Received result: score = 18
+Deserialized object: (18, 'c1e3')
+Received result: score = 18
+Deserialized object: (18, 'c1e3')
+Received result: score = 18
+Best move found: e3d1 with score 11
+AI move: e3d1
+Human move: h1h5
+Distributing 11 moves to 3 workers
+Serializing object: ('5K1k/p7/1p5P/2p3pR/8/8/PP6/RNBn2N1 w - - 4 36', 2)
+Sent task to worker 1: h7h8
+Serializing object: ('5K2/p7/1p4kP/2p3pR/8/8/PP6/RNBn2N1 w - - 4 36', 2)
+Sent task to worker 2: h7g6
+Serializing object: ('5K2/p6k/1p5P/2p3pR/8/4n3/PP6/RNB3N1 w - - 4 36', 2)
+Sent task to worker 3: d1e3
+Serializing object: ('5K2/p6k/1p5P/2p3pR/8/2n5/PP6/RNB3N1 w - - 4 36', 2)
+Sent task to worker 1: d1c3
+Serializing object: ('5K2/p6k/1p5P/2p3pR/8/8/PP3n2/RNB3N1 w - - 4 36', 2)
+Sent task to worker 2: d1f2
+Serializing object: ('5K2/p6k/1p5P/2p3pR/8/8/Pn6/RNB3N1 w - - 0 36', 2)
+Sent task to worker 3: d1b2
+Serializing object: ('5K2/7k/pp5P/2p3pR/8/8/PP6/RNBn2N1 w - - 0 36', 2)
+Sent task to worker 1: a7a6
+Serializing object: ('5K2/p6k/7P/1pp3pR/8/8/PP6/RNBn2N1 w - - 0 36', 2)
+Sent task to worker 2: b6b5
+Serializing object: ('5K2/p6k/1p5P/2p4R/6p1/8/PP6/RNBn2N1 w - - 0 36', 2)
+Sent task to worker 3: g5g4
+Serializing object: ('5K2/p6k/1p5P/6pR/2p5/8/PP6/RNBn2N1 w - - 0 36', 2)
+Sent task to worker 1: c5c4
+Serializing object: ('5K2/7k/1p5P/p1p3pR/8/8/PP6/RNBn2N1 w - - 0 36', 2)
+Sent task to worker 2: a7a5
+Deserialized object: (15, 'h5g5')
+Received result: score = 15
+Deserialized object: (18, 'c1e3')
+Received result: score = 18
+Deserialized object: (15, 'h5g5')
+Received result: score = 15
+Deserialized object: (16, 'c1g5')
+Received result: score = 16
+Deserialized object: (17, 'c1b2')
+Received result: score = 17
+Deserialized object: (15, 'h5g5')
+Received result: score = 15
+Deserialized object: (15, 'h5g5')
+Received result: score = 15
+Deserialized object: (18, 'b1c3')
+Received result: score = 18
+Deserialized object: (15, 'b2b3')
+Received result: score = 15
+Deserialized object: (15, 'h5g5')
+Received result: score = 15
+Deserialized object: (15, 'h5g5')
+Received result: score = 15
+Best move found: h7h8 with score 15
+AI move: h7h8
+Human move: h6h7
+Distributing 9 moves to 3 workers
+Serializing object: ('5K1k/p6P/1p6/2p3pR/8/4n3/PP6/RNB3N1 w - - 1 37', 2)
+Sent task to worker 1: d1e3
+Serializing object: ('5K1k/p6P/1p6/2p3pR/8/2n5/PP6/RNB3N1 w - - 1 37', 2)
+Sent task to worker 2: d1c3
+Serializing object: ('5K1k/p6P/1p6/2p3pR/8/8/PP3n2/RNB3N1 w - - 1 37', 2)
+Sent task to worker 3: d1f2
+Serializing object: ('5K1k/p6P/1p6/2p3pR/8/8/Pn6/RNB3N1 w - - 0 37', 2)
+Sent task to worker 1: d1b2
+Serializing object: ('5K1k/7P/pp6/2p3pR/8/8/PP6/RNBn2N1 w - - 0 37', 2)
+Sent task to worker 2: a7a6
+Serializing object: ('5K1k/p6P/8/1pp3pR/8/8/PP6/RNBn2N1 w - - 0 37', 2)
+Sent task to worker 3: b6b5
+Serializing object: ('5K1k/p6P/1p6/2p4R/6p1/8/PP6/RNBn2N1 w - - 0 37', 2)
+Sent task to worker 1: g5g4
+Serializing object: ('5K1k/p6P/1p6/6pR/2p5/8/PP6/RNBn2N1 w - - 0 37', 2)
+Sent task to worker 2: c5c4
+Serializing object: ('5K1k/7P/1p6/p1p3pR/8/8/PP6/RNBn2N1 w - - 0 37', 2)
+Sent task to worker 3: a7a5
+Deserialized object: (18, 'c1e3')
+Received result: score = 18
+Deserialized object: (16, 'c1g5')
+Received result: score = 16
+Deserialized object: (15, 'h5g5')
+Received result: score = 15
+Deserialized object: (17, 'c1b2')
+Received result: score = 17
+Deserialized object: (18, 'b1c3')
+Received result: score = 18
+Deserialized object: (15, 'h5g5')
+Received result: score = 15
+Deserialized object: (15, 'h5g5')
+Received result: score = 15
+Deserialized object: (15, 'b2b3')
+Received result: score = 15
+Deserialized object: (15, 'h5g5')
+Received result: score = 15
+Best move found: d1f2 with score 15
+AI move: d1f2
+Human move: h5h6
+Distributing 11 moves to 3 workers
+Serializing object: ('5K1k/p6P/1p5R/2p3p1/6n1/8/PP6/RNB3N1 w - - 3 38', 2)
+Sent task to worker 1: f2g4
+Serializing object: ('5K1k/p6P/1p5R/2p3p1/4n3/8/PP6/RNB3N1 w - - 3 38', 2)
+Sent task to worker 2: f2e4
+Serializing object: ('5K1k/p6P/1p5R/2p3p1/8/7n/PP6/RNB3N1 w - - 3 38', 2)
+Sent task to worker 3: f2h3
+Serializing object: ('5K1k/p6P/1p5R/2p3p1/8/3n4/PP6/RNB3N1 w - - 3 38', 2)
+Sent task to worker 1: f2d3
+Serializing object: ('5K1k/p6P/1p5R/2p3p1/8/8/PP6/RNB3Nn w - - 3 38', 2)
+Sent task to worker 2: f2h1
+Serializing object: ('5K1k/p6P/1p5R/2p3p1/8/8/PP6/RNBn2N1 w - - 3 38', 2)
+Sent task to worker 3: f2d1
+Serializing object: ('5K1k/7P/pp5R/2p3p1/8/8/PP3n2/RNB3N1 w - - 0 38', 2)
+Sent task to worker 1: a7a6
+Serializing object: ('5K1k/p6P/7R/1pp3p1/8/8/PP3n2/RNB3N1 w - - 0 38', 2)
+Sent task to worker 2: b6b5
+Serializing object: ('5K1k/p6P/1p5R/2p5/6p1/8/PP3n2/RNB3N1 w - - 0 38', 2)
+Sent task to worker 3: g5g4
+Serializing object: ('5K1k/p6P/1p5R/6p1/2p5/8/PP3n2/RNB3N1 w - - 0 38', 2)
+Sent task to worker 1: c5c4
+Serializing object: ('5K1k/7P/1p5R/p1p3p1/8/8/PP3n2/RNB3N1 w - - 0 38', 2)
+Sent task to worker 2: a7a5
+Deserialized object: (15, 'f8e8')
+Received result: score = 15
+Deserialized object: (15, 'h6h5')
+Received result: score = 15
+Deserialized object: (18, 'h6h3')
+Received result: score = 18
+Deserialized object: (18, 'h6h1')
+Received result: score = 18
+Deserialized object: (16, 'c1g5')
+Received result: score = 16
+Deserialized object: (15, 'c1g5')
+Received result: score = 15
+Deserialized object: (15, 'c1g5')
+Received result: score = 15
+Deserialized object: (16, 'c1g5')
+Received result: score = 16
+Deserialized object: (16, 'c1g5')
+Received result: score = 16
+Deserialized object: (15, 'f8e8')
+Received result: score = 15
+Deserialized object: (16, 'c1g5')
+Received result: score = 16
+Best move found: f2g4 with score 15
+AI move: f2g4
+Human move: c1g5
+Distributing 10 moves to 3 workers
+Serializing object: ('5K1k/p6P/1p5n/2p3B1/8/8/PP6/RN4N1 w - - 0 39', 2)
+Sent task to worker 1: g4h6
+Serializing object: ('5K1k/p6P/1p3n1R/2p3B1/8/8/PP6/RN4N1 w - - 1 39', 2)
+Sent task to worker 2: g4f6
+Serializing object: ('5K1k/p6P/1p5R/2p1n1B1/8/8/PP6/RN4N1 w - - 1 39', 2)
+Sent task to worker 3: g4e5
+Serializing object: ('5K1k/p6P/1p5R/2p3B1/8/4n3/PP6/RN4N1 w - - 1 39', 2)
+Sent task to worker 1: g4e3
+Serializing object: ('5K1k/p6P/1p5R/2p3B1/8/8/PP5n/RN4N1 w - - 1 39', 2)
+Sent task to worker 2: g4h2
+Serializing object: ('5K1k/p6P/1p5R/2p3B1/8/8/PP3n2/RN4N1 w - - 1 39', 2)
+Sent task to worker 3: g4f2
+Serializing object: ('5K1k/7P/pp5R/2p3B1/6n1/8/PP6/RN4N1 w - - 0 39', 2)
+Sent task to worker 1: a7a6
+Serializing object: ('5K1k/p6P/7R/1pp3B1/6n1/8/PP6/RN4N1 w - - 0 39', 2)
+Sent task to worker 2: b6b5
+Serializing object: ('5K1k/p6P/1p5R/6B1/2p3n1/8/PP6/RN4N1 w - - 0 39', 2)
+Sent task to worker 3: c5c4
+Serializing object: ('5K1k/7P/1p5R/p1p3B1/6n1/8/PP6/RN4N1 w - - 0 39', 2)
+Sent task to worker 1: a7a5
+Deserialized object: (19, 'g5f6')
+Received result: score = 19
+Deserialized object: (13, 'g5h6')
+Received result: score = 13
+Deserialized object: (16, 'f8e8')
+Received result: score = 16
+Deserialized object: (19, 'h6h2')
+Received result: score = 19
+Deserialized object: (19, 'g5e3')
+Received result: score = 19
+Deserialized object: (16, 'f8e8')
+Received result: score = 16
+Deserialized object: (16, 'h6h5')
+Received result: score = 16
+Deserialized object: (16, 'h6b6')
+Received result: score = 16
+Deserialized object: (16, 'h6h5')
+Received result: score = 16
+Deserialized object: (16, 'h6b6')
+Received result: score = 16
+Best move found: g4f6 with score 13
+AI move: g4f6
+Human move: g5f6
