@@ -28,6 +28,10 @@ DARK_SQUARE = (118, 150, 86)  # Green
 LIGHT_SQUARE = (238, 238, 210)  # Cream
 HIGHLIGHT = (255, 255, 0, 128)  # Yellow with transparency
 MOVE_HIGHLIGHT = (100, 100, 255, 128)  # Blue with transparency
+DIALOG_BG = (240, 240, 240)
+DIALOG_BORDER = (100, 100, 100)
+BUTTON_HOVER = (200, 200, 200)
+BUTTON_ACTIVE = (180, 180, 180)
 
 def load_piece_images():
     pieces = ['p', 'r', 'n', 'b', 'q', 'k']
@@ -162,6 +166,74 @@ def draw_info(screen, board, status_text):
         state_render = state_font.render(state_text, True, (255, 0, 0))
         screen.blit(state_render, (WIDTH - 150, 20))
 
+def show_promotion_dialog(screen):
+    """Show dialog for pawn promotion and return the chosen piece type"""
+    # Create semi-transparent overlay
+    overlay = pygame.Surface((WIDTH, HEIGHT), pygame.SRCALPHA)
+    overlay.fill((0, 0, 0, 180))  # Semi-transparent black
+    screen.blit(overlay, (0, 0))
+    
+    # Create dialog box
+    dialog_width, dialog_height = 350, 120
+    dialog_x = (WIDTH - dialog_width) // 2
+    dialog_y = (HEIGHT - dialog_height) // 2
+    
+    # Draw dialog background
+    pygame.draw.rect(screen, DIALOG_BG, (dialog_x, dialog_y, dialog_width, dialog_height))
+    pygame.draw.rect(screen, DIALOG_BORDER, (dialog_x, dialog_y, dialog_width, dialog_height), 2)
+    
+    # Draw dialog title
+    font = pygame.font.SysFont('Arial', 18, bold=True)
+    title = font.render("Promote Pawn To:", True, BLACK)
+    title_x = dialog_x + (dialog_width - title.get_width()) // 2
+    screen.blit(title, (title_x, dialog_y + 15))
+    
+    # Create piece buttons
+    piece_types = [(chess.QUEEN, "Queen"), (chess.ROOK, "Rook"), 
+                   (chess.BISHOP, "Bishop"), (chess.KNIGHT, "Knight")]
+    buttons = []
+    
+    button_width = 70
+    button_height = 35
+    button_y = dialog_y + 50
+    
+    total_width = len(piece_types) * button_width + (len(piece_types) - 1) * 10  # 10px spacing
+    start_x = dialog_x + (dialog_width - total_width) // 2
+    
+    for i, (piece_type, label) in enumerate(piece_types):
+        button_x = start_x + i * (button_width + 10)
+        buttons.append((pygame.Rect(button_x, button_y, button_width, button_height), piece_type, label))
+    
+    # Event loop for promotion dialog
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+            
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                mouse_pos = pygame.mouse.get_pos()
+                for button, piece_type, _ in buttons:
+                    if button.collidepoint(mouse_pos):
+                        return piece_type
+            
+        # Draw buttons
+        mouse_pos = pygame.mouse.get_pos()
+        for button, piece_type, label in buttons:
+            if button.collidepoint(mouse_pos):
+                pygame.draw.rect(screen, BUTTON_HOVER, button)
+            else:
+                pygame.draw.rect(screen, DIALOG_BG, button)
+            pygame.draw.rect(screen, DIALOG_BORDER, button, 1)
+            
+            font = pygame.font.SysFont('Arial', 14)
+            text = font.render(label, True, BLACK)
+            text_x = button.x + (button.width - text.get_width()) // 2
+            text_y = button.y + (button.height - text.get_height()) // 2
+            screen.blit(text, (text_x, text_y))
+        
+        pygame.display.flip()        
+
 def minimax_wrapper(board, depth):
     from chess_engine import minimax
     
@@ -264,10 +336,16 @@ def main():
                         else:
                             # Try to move the selected piece
                             move = chess.Move(selected_square, square)
-                            # Handle promotion
-                            if board.piece_at(selected_square).piece_type == chess.PAWN:
-                                if (board.turn and square >= 56) or (not board.turn and square < 8):
-                                    move = chess.Move(selected_square, square, promotion=chess.QUEEN)
+                            # Check if it's a pawn promotion
+                            piece = board.piece_at(selected_square)
+                            is_promotion = (piece and piece.piece_type == chess.PAWN and 
+                                           ((board.turn and square >= 56) or  # White pawn to 8th rank
+                                            (not board.turn and square < 8)))  # Black pawn to 1st rank
+                            
+                            if is_promotion :
+                                # Show promotion dialog
+                                promotion_piece = show_promotion_dialog(screen)
+                                move = chess.Move(selected_square, square, promotion=promotion_piece)
                             
                             if move in board.legal_moves:
                                 board.push(move)
