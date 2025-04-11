@@ -8,18 +8,32 @@ comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
 
 def worker_process():
-    log("Worker process started")
+    log(f"Worker {rank} process started")
     while True:
-        data = comm.recv(source=0, tag=MPI.ANY_TAG)
-        log(f"Received task from master: {data}")
-        if data == "STOP":
-            log("Received STOP signal. Exiting worker.")
+        # Receive task 
+        status = MPI.Status()
+        task = comm.recv(source=0, tag=MPI.ANY_TAG, status=status)
+        task_tag = status.tag
+        
+        if task == "STOP":
+            log(f"Worker {rank} received stop signal")
             break
-
-        board_fen, depth = deserialize(data)
-        board = chess.Board(board_fen)
-        score, move = minimax(board, depth, -float('inf'), float('inf'), board.turn)
-        log(f"Processed board. Score: {score}, Move: {move}")
-        comm.send(serialize((score, move.uci() if move else None)), dest=0)
-
-
+            
+        if task == "NO_MORE_TASKS":
+            log(f"Worker {rank} has no more tasks, waiting for next round")
+            continue
+        
+        try:
+            log(f"Worker {rank} processing task")
+            board_fen, depth = deserialize(task)
+            board = chess.Board(board_fen)
+            score, move = minimax(board, depth, -float('inf'), float('inf'), board.turn)
+            
+            # Send result back
+            move_uci = move.uci() if move else None
+            log(f"Worker {rank} sending result: {score}, {move_uci}")
+            comm.send(serialize((score, move_uci)), dest=0, tag=2)
+        except Exception as e:
+            log(f"Worker {rank} error: {e}")
+            # Send error result
+            comm.send(serialize((-9999, None)), dest=0, tag=2)

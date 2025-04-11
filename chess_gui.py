@@ -242,30 +242,87 @@ def minimax_wrapper(board, depth):
     log(f"Minimax search completed: score = {score}, move = {move}")
     return score, move
 
+from collections import deque
+
 def distribute_and_collect(board, depth):
     from chess_engine import evaluate_board
     
+    comm = MPI.COMM_WORLD
+    worker_count = comm.Get_size() - 1  # Exclude master (rank 0)
+    
     legal_moves = list(board.legal_moves)
-    log(f"Distributing {len(legal_moves)} moves to {size-1} workers")
+    log(f"Analyzing {len(legal_moves)} legal moves at depth {depth}")
     
-    # Send tasks to workers
-    for i, move in enumerate(legal_moves):
-        board_copy = board.copy()
-        board_copy.push(move)
-        task = serialize((board_copy.fen(), depth - 1))
-        dest = (i % (size - 1)) + 1
-        comm.send(task, dest=dest)
-        log(f"Sent task to worker {dest}: {move}")
+    # No legal moves
+    if not legal_moves:
+        return (0, None)
     
-    # Collect results
+    move_queue = deque(legal_moves)
     results = []
-    for i in range(len(legal_moves)):
-        result = comm.recv(source=MPI.ANY_SOURCE)
-        score, _ = deserialize(result)
-        results.append((score, legal_moves[i]))
-        log(f"Received result: score = {score}")
+    move_mapping = {}  # worker_rank -> original_move
+    active_workers = set()  # Set of active worker ranks
+    
+    # Phase 1: Initial task distribution
+    for worker_rank in range(1, comm.Get_size()):
+        if move_queue:
+            move = move_queue.popleft()
+            move_mapping[worker_rank] = move
+            
+            board_copy = board.copy()
+            board_copy.push(move)
+            log(f"Sending task to worker {worker_rank}: move {move.uci()}")
+            task = serialize((board_copy.fen(), depth - 1))
+            comm.send(task, dest=worker_rank, tag=1)
+            active_workers.add(worker_rank)
+        else:
+            # No more initial tasks to distribute
+            break
+    
+    # Phase 2: Dynamic task assignment and collection
+    while move_queue or active_workers:
+        if active_workers:
+            status = MPI.Status()
+            log(f"Waiting for results from workers: {active_workers}")
+            
+            # Wait for any worker to finish
+            result = comm.recv(source=MPI.ANY_SOURCE, tag=2, status=status)
+            worker_rank = status.source
+            log(f"Received result from worker {worker_rank}")
+            
+            # Record this result with the original move
+            original_move = move_mapping[worker_rank]
+            score, _ = deserialize(result)  # We don't need the move_uci from the worker
+            results.append((score, original_move))
+            
+            # Worker is now free
+            active_workers.remove(worker_rank)
+            
+            # Assign new task if available
+            if move_queue:
+                move = move_queue.popleft()
+                move_mapping[worker_rank] = move
+                
+                board_copy = board.copy()
+                board_copy.push(move)
+                log(f"Sending next task to worker {worker_rank}: move {move.uci()}")
+                task = serialize((board_copy.fen(), depth - 1))
+                comm.send(task, dest=worker_rank, tag=1)
+                active_workers.add(worker_rank)
+            else:
+                log(f"No more tasks, sending NO_MORE_TASKS to worker {worker_rank}")
+                comm.send("NO_MORE_TASKS", dest=worker_rank, tag=1)
+    
+    # Once we've processed all moves, ensure all workers are idle
+    for worker_rank in range(1, comm.Get_size()):
+        if worker_rank not in active_workers:
+            log(f"Sending NO_MORE_TASKS to idle worker {worker_rank}")
+            comm.send("NO_MORE_TASKS", dest=worker_rank, tag=1)
     
     # Find best move
+    if not results:
+        log("Warning: No results collected!")
+        return (0, None)
+    
     if board.turn:  # White's turn, maximize
         best_result = max(results, key=lambda x: x[0])
     else:  # Black's turn, minimize
@@ -276,14 +333,20 @@ def distribute_and_collect(board, depth):
 
 def ai_move_thread(board, depth, callback):
     try:
+        log(f"AI thread started with depth {depth}")
         if size > 1:
+            log("Using distributed computation")
             score, move = distribute_and_collect(board, depth)
         else:
+            log("Using single process computation")
             score, move = minimax_wrapper(board, depth)
         
+        log(f"AI thread finished: score={score}, move={move}")
         callback(move)
     except Exception as e:
         log(f"Error in AI calculation: {e}")
+        import traceback
+        log(traceback.format_exc())  # Get detailed stack trace
         callback(None)
 
 
@@ -420,9 +483,13 @@ def main():
                                     def on_ai_move_done(move):
                                         nonlocal ai_thinking, status_text, last_move, game_over
                                         if move:
-                                            board.push(move)
-                                            last_move = move
-                                            log(f"AI move: {move.uci()}")
+                                            # Convert UCI string to chess.Move if needed
+                                            if isinstance(move, str):
+                                                move = chess.Move.from_uci(move)
+                                            if move in board.legal_moves:
+                                                board.push(move)
+                                                last_move = move
+                                                log(f"AI move: {move.uci()}")
                                             
                                             if board.is_game_over():
                                                 status_text = f"Game over! Result: {board.result()}"
