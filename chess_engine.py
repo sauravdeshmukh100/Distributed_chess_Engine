@@ -374,7 +374,7 @@ def play_game():
             break
 
         log("Master distributing moves for AI response")
-        best_move = distribute_moves_and_collect(board.copy(), depth=10)
+        best_move = distribute_moves_and_collect(board.copy(), depth=20)
         print(f"\nAI plays: {best_move.uci()}")
         board.push(best_move)
 

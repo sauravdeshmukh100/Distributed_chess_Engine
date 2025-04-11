@@ -286,6 +286,59 @@ def ai_move_thread(board, depth, callback):
         log(f"Error in AI calculation: {e}")
         callback(None)
 
+
+def show_difficulty_dialog(screen):
+    """Show dialog for difficulty selection and return the chosen depth"""
+    overlay = pygame.Surface((WIDTH, HEIGHT), pygame.SRCALPHA)
+    overlay.fill((0, 0, 0, 180))
+    screen.blit(overlay, (0, 0))
+
+    dialog_width, dialog_height = 350, 150
+    dialog_x = (WIDTH - dialog_width) // 2
+    dialog_y = (HEIGHT - dialog_height) // 2
+
+    pygame.draw.rect(screen, DIALOG_BG, (dialog_x, dialog_y, dialog_width, dialog_height))
+    pygame.draw.rect(screen, DIALOG_BORDER, (dialog_x, dialog_y, dialog_width, dialog_height), 2)
+
+    font = pygame.font.SysFont('Arial', 18, bold=True)
+    title = font.render("Select AI Difficulty:", True, BLACK)
+    title_x = dialog_x + (dialog_width - title.get_width()) // 2
+    screen.blit(title, (title_x, dialog_y + 15))
+
+    difficulties = [("Easy", 2), ("Medium", 3), ("Hard", 4)]
+    buttons = []
+    button_width, button_height = 100, 35
+    start_x = dialog_x + 25
+    spacing = (dialog_width - 3*button_width) // 4
+
+    for i, (label, depth) in enumerate(difficulties):
+        x = start_x + i*(button_width + spacing)
+        y = dialog_y + 60
+        buttons.append((pygame.Rect(x, y, button_width, button_height), depth, label))
+
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                mouse_pos = pygame.mouse.get_pos()
+                for button, depth, _ in buttons:
+                    if button.collidepoint(mouse_pos):
+                        return depth
+
+        for button, depth, label in buttons:
+            color = BUTTON_HOVER if button.collidepoint(pygame.mouse.get_pos()) else DIALOG_BG
+            pygame.draw.rect(screen, color, button)
+            pygame.draw.rect(screen, DIALOG_BORDER, button, 1)
+            text = pygame.font.SysFont('Arial', 14).render(label, True, BLACK)
+            text_x = button.x + (button.width - text.get_width()) // 2
+            text_y = button.y + (button.height - text.get_height()) // 2
+            screen.blit(text, (text_x, text_y))
+
+        pygame.display.flip()
+
+
 def main():
     if rank != 0:
         # Worker nodes should run the worker process
@@ -299,6 +352,9 @@ def main():
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
     pygame.display.set_caption("Chess Game with MPI")
     clock = pygame.time.Clock()
+
+    # Let user select difficulty
+    ai_depth = show_difficulty_dialog(screen)
     
     try:
         load_piece_images()
@@ -379,7 +435,7 @@ def main():
                                     
                                     threading.Thread(
                                         target=ai_move_thread,
-                                        args=(board.copy(), 3, on_ai_move_done)
+                                        args=(board.copy(), ai_depth, on_ai_move_done)
                                     ).start()
                             else:
                                 selected_square = square if board.piece_at(square) and board.piece_at(square).color == board.turn else None
