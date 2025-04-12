@@ -26,7 +26,7 @@ pip install mpi4py python-chess pygame
 To run the chess game with the GUI:
 
 ```bash
-mpirun -n <number_of_processes> python run.py --gui
+mpirun -n <number_of_processes> python chess_gui.py 
 ```
 
 Where `<number_of_processes>` is the number of processes you want to use (recommended at least 2: 1 for the GUI/master and 1+ for workers).
@@ -34,7 +34,7 @@ Where `<number_of_processes>` is the number of processes you want to use (recomm
 For example:
 
 ```bash
-mpirun -n 4 python run.py --gui
+mpirun -n 4 python chess_gui.py 
 ```
 
 This will start the game with 1 master process (which also runs the GUI) and 3 worker processes.

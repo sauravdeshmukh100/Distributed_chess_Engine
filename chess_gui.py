@@ -1,4 +1,5 @@
 # --- chess_gui.py ---
+import time
 import pygame
 import chess
 import sys
@@ -244,114 +245,178 @@ def minimax_wrapper(board, depth):
 
 from collections import deque
 
-def distribute_and_collect(board, depth):
+import time  # Add at top of file
+
+def distribute_and_collect(board, max_depth=4, time_limit=5):
+    """
+    Modified for iterative deepening with time management
+    Preserves original MPI communication patterns
+    """
     from chess_engine import evaluate_board
     
     comm = MPI.COMM_WORLD
-    worker_count = comm.Get_size() - 1  # Exclude master (rank 0)
+    worker_count = comm.Get_size() - 1
+    start_time = time.time()
+    best_result = (float('-inf'), None) if board.turn else (float('inf'), None)
     
-    legal_moves = list(board.legal_moves)
-    log(f"Analyzing {len(legal_moves)} legal moves at depth {depth}")
-    
-    # No legal moves
-    if not legal_moves:
-        return (0, None)
-    
-    move_queue = deque(legal_moves)
-    results = []
-    move_mapping = {}  # worker_rank -> original_move
-    active_workers = set()  # Set of active worker ranks
-    
-    # Phase 1: Initial task distribution
-    for worker_rank in range(1, comm.Get_size()):
-        if move_queue:
-            move = move_queue.popleft()
-            move_mapping[worker_rank] = move
-            
-            board_copy = board.copy()
-            board_copy.push(move)
-            log(f"Sending task to worker {worker_rank}: move {move.uci()}")
-            task = serialize((board_copy.fen(), depth - 1))
-            comm.send(task, dest=worker_rank, tag=1)
-            active_workers.add(worker_rank)
-        else:
-            # No more initial tasks to distribute
+    # Iterative deepening loop
+    for current_depth in range(1, max_depth + 1):
+        if time.time() - start_time > time_limit:
+            log(f"Time limit reached at depth {current_depth-1}", )
             break
-    
-    # Phase 2: Dynamic task assignment and collection
-    while move_queue or active_workers:
-        if active_workers:
-            status = MPI.Status()
-            log(f"Waiting for results from workers: {active_workers}")
             
-            # Wait for any worker to finish
-            result = comm.recv(source=MPI.ANY_SOURCE, tag=2, status=status)
-            worker_rank = status.source
-            log(f"Received result from worker {worker_rank}")
-            
-            # Record this result with the original move
-            original_move = move_mapping[worker_rank]
-            score, _ = deserialize(result)  # We don't need the move_uci from the worker
-            results.append((score, original_move))
-            
-            # Worker is now free
-            active_workers.remove(worker_rank)
-            
-            # Assign new task if available
+        log(f"Starting depth {current_depth}", )
+        legal_moves = list(board.legal_moves)
+        
+        if not legal_moves:
+            return (0, None)
+        
+        move_queue = deque(legal_moves)
+        results = []
+        move_mapping = {}
+        active_workers = set()
+
+        # Phase 1: Initial distribution for current depth
+        for worker_rank in range(1, comm.Get_size()):
             if move_queue:
                 move = move_queue.popleft()
                 move_mapping[worker_rank] = move
-                
                 board_copy = board.copy()
                 board_copy.push(move)
-                log(f"Sending next task to worker {worker_rank}: move {move.uci()}")
-                task = serialize((board_copy.fen(), depth - 1))
+                task = serialize((
+            board_copy.fen(), 
+            current_depth - 1,
+            time_limit - (time.time() - start_time)  # Remaining time
+        ))  # Now 3 elements # Note: depth-1 for recursive search
                 comm.send(task, dest=worker_rank, tag=1)
                 active_workers.add(worker_rank)
+
+        # Phase 2: Dynamic task handling with depth awareness
+        while (move_queue or active_workers) and (time.time() - start_time < time_limit):
+            if active_workers:
+                status = MPI.Status()
+                result = comm.recv(source=MPI.ANY_SOURCE, tag=2, status=status)
+                worker_rank = status.source
+                # SAFETY CHECK: Only process if worker is still active
+                if worker_rank in active_workers:
+                    original_move = move_mapping[worker_rank]
+                    score, _ = deserialize(result)
+                    results.append((score, original_move))
+                    active_workers.remove(worker_rank)  # Now safe
+
+                # Assign new task if time remains
+                if move_queue and (time.time() - start_time < time_limit):
+                    move = move_queue.popleft()
+                    move_mapping[worker_rank] = move
+                    board_copy = board.copy()
+                    board_copy.push(move)
+                    task = serialize((
+                        board_copy.fen(), 
+                        current_depth - 1,
+                        time_limit - (time.time() - start_time)  # Remaining time
+                    ))  # Now 3 elements
+                    comm.send(task, dest=worker_rank, tag=1)
+                    active_workers.add(worker_rank)
+
+        # Result validation and error handling
+        valid_results = []
+        error_messages = []
+        
+        for score, move in results:
+            if isinstance(score, (int, float)):
+                valid_results.append((score, move))
             else:
-                log(f"No more tasks, sending NO_MORE_TASKS to worker {worker_rank}")
-                comm.send("NO_MORE_TASKS", dest=worker_rank, tag=1)
-    
-    # Once we've processed all moves, ensure all workers are idle
-    for worker_rank in range(1, comm.Get_size()):
-        if worker_rank not in active_workers:
-            log(f"Sending NO_MORE_TASKS to idle worker {worker_rank}")
+                error_messages.append(f"Invalid result: {score} - {move}")
+        
+        if error_messages:
+            log("Worker errors:\n" + "\n".join(error_messages))
+        
+        # Handle case with no valid results
+        if not valid_results:
+            log("No valid results! Using first legal move")
+            return (0, next(iter(board.legal_moves), None))
+        
+        # Find best from valid results
+        if board.turn:
+            current_best = max(valid_results, key=lambda x: x[0])
+        else:
+            current_best = min(valid_results, key=lambda x: x[0])
+        
+        if (board.turn and current_best[0] > best_result[0]) or \
+           (not board.turn and current_best[0] < best_result[0]):
+            best_result = current_best
+            log(f"New best at depth {current_depth}: {best_result[1].uci()} ({best_result[0]})")
+
+        # Cleanup workers between depth iterations
+        for worker_rank in range(1, comm.Get_size()):
             comm.send("NO_MORE_TASKS", dest=worker_rank, tag=1)
-    
-    # Find best move
-    if not results:
-        log("Warning: No results collected!")
-        return (0, None)
-    
-    if board.turn:  # White's turn, maximize
-        best_result = max(results, key=lambda x: x[0])
-    else:  # Black's turn, minimize
-        best_result = min(results, key=lambda x: x[0])
-    
-    log(f"Best move found: {best_result[1]} with score {best_result[0]}")
+
     return best_result
 
-def ai_move_thread(board, depth, callback):
+
+# def iterative_deepening(board, max_depth, time_limit=5):  
+#     start_time = time.time()  
+#     best_move = None  
+#     for depth in range(1, max_depth+1):  
+#         if time.time() - start_time > time_limit:  
+#             break  
+#         score, current_move = minimax(board, depth, ...)  
+#         if current_move:  
+#             best_move = current_move  
+#     return best_move  
+import traceback
+
+def ai_move_thread(board, config, callback):
+    """Enhanced with proper time management and error handling"""
     try:
-        log(f"AI thread started with depth {depth}")
-        if size > 1:
-            log("Using distributed computation")
-            score, move = distribute_and_collect(board, depth)
+        start_time = time.time()
+        best_move = None
+        remaining_time = config['time_limit']
+
+        def time_left():
+            return max(0, config['time_limit'] - (time.time() - start_time))
+
+        if config['use_distributed']:
+            # Distributed search with MPI
+            best_score, best_move = distribute_and_collect(
+                board,
+                max_depth=config['max_depth'],
+                time_limit=remaining_time
+            )
         else:
-            log("Using single process computation")
-            score, move = minimax_wrapper(board, depth)
+            # Local iterative deepening with time per depth
+            for current_depth in range(1, config['max_depth'] + 1):
+                if time_left() <= 0:
+                    break
+                
+                try:
+                    score, move = minimax_wrapper(
+                        board, 
+                        current_depth,
+                        time_limit=time_left() * 0.8  # Reserve 20% for next depth
+                    )
+                    if move:
+                        best_move = move
+                        log(f"Depth {current_depth} best: {move.uci()} ({score})")
+                except TimeoutError:
+                    log(f"Depth {current_depth} timed out")
+                    break
+
+        callback(best_move if best_move else random.choice(list(board.legal_moves)) or None)
         
-        log(f"AI thread finished: score={score}, move={move}")
-        callback(move)
     except Exception as e:
-        log(f"Error in AI calculation: {e}")
-        import traceback
-        log(traceback.format_exc())  # Get detailed stack trace
+        log(f"AI Error: {str(e)}\n{traceback.format_exc()}")
         callback(None)
+
+DIFFICULTY_PROFILES = {
+    "Easy": {'max_depth': 3, 'time_limit': 3, 'label': 'Easy', 'use_distributed': True},
+    "Medium": {'max_depth': 4, 'time_limit': 5, 'label': 'Medium', 'use_distributed': True},
+    "Hard": {'max_depth': 6, 'time_limit': 10, 'label': 'Hard', 'use_distributed': True}
+}
 
 
 def show_difficulty_dialog(screen):
-    """Show dialog for difficulty selection and return the chosen depth"""
+    """Show dialog for difficulty selection and return the chosen config"""
     overlay = pygame.Surface((WIDTH, HEIGHT), pygame.SRCALPHA)
     overlay.fill((0, 0, 0, 180))
     screen.blit(overlay, (0, 0))
@@ -368,16 +433,20 @@ def show_difficulty_dialog(screen):
     title_x = dialog_x + (dialog_width - title.get_width()) // 2
     screen.blit(title, (title_x, dialog_y + 15))
 
-    difficulties = [("Easy", 2), ("Medium", 3), ("Hard", 4)]
+    # Create buttons using difficulty profiles
     buttons = []
     button_width, button_height = 100, 35
     start_x = dialog_x + 25
     spacing = (dialog_width - 3*button_width) // 4
 
-    for i, (label, depth) in enumerate(difficulties):
+    for i, (key, config) in enumerate(DIFFICULTY_PROFILES.items()):
         x = start_x + i*(button_width + spacing)
         y = dialog_y + 60
-        buttons.append((pygame.Rect(x, y, button_width, button_height), depth, label))
+        buttons.append((
+            pygame.Rect(x, y, button_width, button_height),
+            config,
+            config['label']
+        ))
 
     while True:
         for event in pygame.event.get():
@@ -386,14 +455,17 @@ def show_difficulty_dialog(screen):
                 sys.exit()
             if event.type == pygame.MOUSEBUTTONDOWN:
                 mouse_pos = pygame.mouse.get_pos()
-                for button, depth, _ in buttons:
+                for button, config, _ in buttons:
                     if button.collidepoint(mouse_pos):
-                        return depth
+                        return config
 
-        for button, depth, label in buttons:
+        # Draw buttons
+        for button, config, label in buttons:
             color = BUTTON_HOVER if button.collidepoint(pygame.mouse.get_pos()) else DIALOG_BG
             pygame.draw.rect(screen, color, button)
             pygame.draw.rect(screen, DIALOG_BORDER, button, 1)
+            
+            # Center label text
             text = pygame.font.SysFont('Arial', 14).render(label, True, BLACK)
             text_x = button.x + (button.width - text.get_width()) // 2
             text_y = button.y + (button.height - text.get_height()) // 2
@@ -403,6 +475,9 @@ def show_difficulty_dialog(screen):
 
 
 def main():
+    comm = MPI.COMM_WORLD
+    rank = comm.Get_rank()
+
     if rank != 0:
         # Worker nodes should run the worker process
         from worker import worker_process
@@ -416,8 +491,8 @@ def main():
     pygame.display.set_caption("Chess Game with MPI")
     clock = pygame.time.Clock()
 
-    # Let user select difficulty
-    ai_depth = show_difficulty_dialog(screen)
+    # In your main game loop:
+    difficulty_config = show_difficulty_dialog(screen)
     
     try:
         load_piece_images()
@@ -502,8 +577,9 @@ def main():
                                     
                                     threading.Thread(
                                         target=ai_move_thread,
-                                        args=(board.copy(), ai_depth, on_ai_move_done)
+                                        args=(board.copy(), difficulty_config, on_ai_move_done)
                                     ).start()
+    
                             else:
                                 selected_square = square if board.piece_at(square) and board.piece_at(square).color == board.turn else None
             
@@ -539,5 +615,18 @@ def main():
         pygame.display.flip()
         clock.tick(30)
 
+# Add to the bottom of chess_gui.py (before the existing if __name__ block)
+def mpi_main():
+    comm = MPI.COMM_WORLD
+    rank = comm.Get_rank()
+    
+    if rank == 0:
+        # GUI master process
+        main()
+    else:
+        # Worker process
+        from worker import worker_process
+        worker_process()
+
 if __name__ == "__main__":
-    main()
+    mpi_main()

@@ -4,6 +4,7 @@ from mpi4py import MPI
 import pickle
 import random
 from utils import log  # Assuming utils.py has a log function implemented
+import time
 
 comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
@@ -258,58 +259,67 @@ def evaluate_board(board):
     log(f"Evaluated board score: {score}")
     return score
 
-def minimax(board, depth, alpha, beta, maximizing_player):
+def minimax(board, depth, alpha, beta, maximizing_player, start_time=None, time_limit=None, prev_best_move=None):
     """
-    Minimax search with alpha-beta pruning.
-    Returns the best score and move from the current position.
+    Optimized minimax with:
+    - Timeout control
+    - Move ordering using previous best move
+    - Better logging
+    - Early termination checks
     """
-    log(f"Minimax call: depth={depth}, alpha={alpha}, beta={beta}, maximizing={maximizing_player}")
+    # Timeout check
+    if start_time and time.time() - start_time > time_limit:
+        raise TimeoutError("Time limit exceeded")
     
-    # Base case: depth reached or game over
+    # Base cases
     if depth == 0 or board.is_game_over():
         score = evaluate_board(board)
-        log(f"Reached leaf node or game over. Score: {score}")
+        log(f"Leaf node at depth {depth}: {score}")
         return score, None
     
     legal_moves = list(board.legal_moves)
-    random.shuffle(legal_moves)  # Randomize move order for better pruning
+    
+    # Move ordering - put previous best move first if available
+    if prev_best_move and prev_best_move in legal_moves:
+        legal_moves.remove(prev_best_move)
+        legal_moves.insert(0, prev_best_move)
+    
     best_move = None
+    best_score = -float('inf') if maximizing_player else float('inf')
     
-    if maximizing_player:  # White's turn
-        max_score = float('-inf')
-        for move in legal_moves:
-            board.push(move)
-            score, _ = minimax(board, depth - 1, alpha, beta, False)
+    for move in legal_moves:
+        # Early termination check
+        if start_time and time.time() - start_time > time_limit:
+            break
+            
+        board.push(move)
+        try:
+            score, _ = minimax(
+                board, depth-1, alpha, beta, 
+                not maximizing_player, start_time, time_limit
+            )
+        finally:
             board.pop()
-            
-            if score > max_score:
-                max_score = score
-                best_move = move
-            
-            alpha = max(alpha, score)
-            if beta <= alpha:
-                break  # Beta cutoff
         
-        log(f"Maximizing: Best score = {max_score}, Move = {best_move}")
-        return max_score, best_move
+        # Update best move and alpha/beta
+        if maximizing_player:
+            if score > best_score:
+                best_score = score
+                best_move = move
+            alpha = max(alpha, best_score)
+        else:
+            if score < best_score:
+                best_score = score
+                best_move = move
+            beta = min(beta, best_score)
+        
+        # Pruning condition
+        if beta <= alpha:
+            log(f"Pruning at depth {depth} with {len(legal_moves)-legal_moves.index(move)-1} moves left")
+            break
     
-    else:  # Black's turn
-        min_score = float('inf')
-        for move in legal_moves:
-            board.push(move)
-            score, _ = minimax(board, depth - 1, alpha, beta, True)
-            board.pop()
-            
-            if score < min_score:
-                min_score = score
-                best_move = move
-            
-            beta = min(beta, score)
-            if beta <= alpha:
-                break  # Alpha cutoff
-        
-        log(f"Minimizing: Best score = {min_score}, Move = {best_move}")
-        return min_score, best_move
+    log(f"Depth {depth} best: {best_move} ({best_score})")
+    return best_score, best_move
 
 
 
