@@ -1,36 +1,4 @@
-The command you provided, `mpirun -n 8 --oversubscribe python chess_gui.py`, is a valid way to run your Distributed Chess Engine with 8 MPI processes (1 master + 7 workers), using the `--oversubscribe` flag to allow more processes than available CPU cores. Below, I'll clarify how to increase the number of nodes/processes, explain the `--oversubscribe` flag, and update the `README.md` to incorporate this instruction. I'll also ensure the Mermaid diagram remains consistent and address any potential issues with scaling the number of nodes.
 
-### Clarification on Increasing Number of Nodes
-
-- **`-n 8`**: Specifies 8 MPI processes (1 master process for `chess_gui.py` and 7 worker processes). To increase the number of nodes (processes), simply increase this number, e.g., `-n 16` for 1 master + 15 workers.
-- **`--oversubscribe`**: Allows running more MPI processes than available CPU cores. Without this flag, MPI may fail if the number of processes exceeds the core count (e.g., on a 4-core machine, `-n 8` might fail).
-- **Scaling Considerations**:
-  - The number of workers (\( W = n - 1 \)) should ideally be less than or equal to the number of legal moves at the root (~35 in chess) for optimal load balancing, as each worker evaluates one move's subtree.
-  - Beyond ~35 workers, some may idle, reducing efficiency.
-  - Memory and communication overhead increase with more processes, so test performance on your system.
-
-**Example Commands**:
-- For 12 processes (1 master + 11 workers):
-  ```bash
-  mpirun -n 12 --oversubscribe python chess_gui.py
-  ```
-- For 20 processes:
-  ```bash
-  mpirun -n 20 --oversubscribe python chess_gui.py
-  ```
-
-**Note**: On a cluster (multiple physical nodes), you may need additional MPI flags like `--hostfile` or `--host` to specify nodes. For a single machine, `--oversubscribe` is sufficient.
-
-### Potential Issues
-- **Resource Limits**: Too many processes may exhaust memory or CPU, especially if each worker logs extensively (`rank_X.txt` files).
-- **Communication Overhead**: More workers increase MPI send/receive calls, potentially slowing down task distribution.
-- **Load Imbalance**: If the number of moves is less than the number of workers, some workers will be idle.
-
-### Updated README.md
-
-Below is the updated `README.md`, incorporating instructions for increasing the number of nodes and clarifying the use of `--oversubscribe`. The Mermaid diagram remains unchanged, as it accurately represents the architecture regardless of the number of workers. I've also refined the usage section for clarity.
-
----
 
 # Distributed Chess Engine Using MPI
 
