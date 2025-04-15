@@ -109,8 +109,8 @@ graph TD
 
 3. **Set Up a Virtual Environment** (recommended):
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   python -m venv myenv
+   source myenv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
 4. **Install Python Dependencies**:
@@ -205,11 +205,3 @@ Developed as part of an academic project at **IIIT Hyderabad**, for educational 
 
 ---
 
-### Additional Notes
-- **Scaling Guidance**: Added a note that 10–35 workers are optimal, aligning with the typical number of legal moves. This matches the complexity analysis in the report (communication complexity scales with moves).
-- **Chess Piece Source**: Included a generic link to Wikimedia for chess piece images, as your project references a `chess_pieces` folder without a specific source. If you have a preferred source, I can update it.
-- **Mermaid Diagram**: Kept identical to the previous response, as it correctly represents the architecture and scales with any number of workers.
-- **Report Reference**: Retained `report.md` in the structure, assuming it’s part of your project.
-- **Clear Command**: Your input included "clear" after the command, which I assumed was unintentional (possibly a typo or shell command). If it’s meant to clear logs or reset state, let me know, and I can add a script or instruction for it.
-
-If you need further tweaks (e.g., cluster-specific MPI flags, a log-clearing script, or a specific image source), please clarify, and I’ll update the README or provide additional guidance!
