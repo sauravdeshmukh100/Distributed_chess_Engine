@@ -203,5 +203,10 @@ Please include tests and update documentation as needed.
 This project is licensed under the [MIT License](LICENSE).  
 Developed as part of an academic project at **IIIT Hyderabad**, for educational and research purposes.
 
+## Repository
+
+For future updates and changes, visit the [GitHub Repository](https://github.com/sauravdeshmukh100/Distributed_chess_Engine).
+
+
 ---
 
