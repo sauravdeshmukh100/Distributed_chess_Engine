@@ -327,7 +327,7 @@ def main():
     if rank != 0:
         # Worker nodes should run the worker process
         from worker import worker_process
-        log("Starting worker process")
+        # log("Starting worker process")
         worker_process()
         return
     

@@ -256,7 +256,7 @@ def evaluate_board(board):
     score += random.randint(-2, 2)
     
     # Log the evaluation
-    log(f"Evaluated board score: {score}")
+    # log(f"Evaluated board score: {score}")
     return score
 
 def minimax(board, depth, alpha, beta, maximizing_player, start_time=None, time_limit=None, prev_best_move=None):
@@ -274,7 +274,7 @@ def minimax(board, depth, alpha, beta, maximizing_player, start_time=None, time_
     # Base cases
     if depth == 0 or board.is_game_over():
         score = evaluate_board(board)
-        log(f"Leaf node at depth {depth}: {score}")
+        # log(f"Leaf node at depth {depth}: {score}")
         return score, None
     
     legal_moves = list(board.legal_moves)
@@ -315,12 +315,11 @@ def minimax(board, depth, alpha, beta, maximizing_player, start_time=None, time_
         
         # Pruning condition
         if beta <= alpha:
-            log(f"Pruning at depth {depth} with {len(legal_moves)-legal_moves.index(move)-1} moves left")
+            # log(f"Pruning at depth {depth} with {len(legal_moves)-legal_moves.index(move)-1} moves left")
             break
     
-    log(f"Depth {depth} best: {best_move} ({best_score})")
+    # log(f"Depth {depth} best: {best_move} ({best_score})")
     return best_score, best_move
-
 
 
 

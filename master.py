@@ -17,7 +17,7 @@ size = comm.Get_size()
 def minimax_wrapper(board, depth):
     from chess_engine import minimax
     
-    log("Starting minimax search")
+    # log("Starting minimax search")
     score, move = minimax(board, depth, -float('inf'), float('inf'), board.turn)
     log(f"Minimax search completed: score = {score}, move = {move}")
     return score, move
@@ -38,10 +38,10 @@ def distribute_and_collect(board, max_depth=4, time_limit=5):
     # Iterative deepening loop
     for current_depth in range(1, max_depth + 1):
         if time.time() - start_time > time_limit:
-            log(f"Time limit reached at depth {current_depth-1}", )
+            # log(f"Time limit reached at depth {current_depth-1}", )
             break
             
-        log(f"Starting depth {current_depth}", )
+        # log(f"Starting depth {current_depth}", )
         legal_moves = list(board.legal_moves)
         
         if not legal_moves:
@@ -109,7 +109,7 @@ def distribute_and_collect(board, max_depth=4, time_limit=5):
         
         # Handle case with no valid results
         if not valid_results:
-            log("No valid results! Using first legal move")
+            # log("No valid results! Using first legal move")
             return (0, next(iter(board.legal_moves), None))
         
         # Find best from valid results
@@ -121,7 +121,7 @@ def distribute_and_collect(board, max_depth=4, time_limit=5):
         if (board.turn and current_best[0] > best_result[0]) or \
            (not board.turn and current_best[0] < best_result[0]):
             best_result = current_best
-            log(f"New best at depth {current_depth}: {best_result[1].uci()} ({best_result[0]})")
+            # log(f"New best at depth {current_depth}: {best_result[1].uci()} ({best_result[0]})")
 
         # Cleanup workers between depth iterations
         for worker_rank in range(1, comm.Get_size()):

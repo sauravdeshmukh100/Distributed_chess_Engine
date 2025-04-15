@@ -9,7 +9,7 @@ comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
 
 def worker_process():
-    log(f"Worker {rank} started with PID {os.getpid()}")
+    # log(f"Worker {rank} started with PID {os.getpid()}")
     last_best_move = None
     
     while True:
@@ -29,7 +29,7 @@ def worker_process():
         
         # Termination handling
         if task == "STOP":
-            log(f"Worker {rank} received STOP")
+            # log(f"Worker {rank} received STOP")
             break
         if task == "NO_MORE_TASKS":
             last_best_move = None  # Reset between depth iterations
@@ -41,7 +41,7 @@ def worker_process():
             start_time = time.time()
             
             board = chess.Board(board_fen)
-            log(f"Worker {rank} processing depth {depth} task")
+            # log(f"Worker {rank} processing depth {depth} task")
             
             # Run search
             score, move = minimax(
