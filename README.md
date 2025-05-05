@@ -52,11 +52,11 @@ graph TD
         I --> J[Minimax Search]
         J --> K[Board Evaluation]
         I --> L[Result Transmission]
+        I --> M1[Minimax Algorithm]
+        I --> M2[Evaluation Function]
     end
     
     subgraph "Shared Components"
-        M[chess_engine.py] --> N[Minimax Algorithm]
-        M --> O[Evaluation Function]
         P[utils.py] --> Q[Serialization]
         P --> R[Logging]
     end
@@ -73,7 +73,7 @@ graph TD
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style D fill:#bbf,stroke:#333,stroke-width:2px
     style G fill:#bfb,stroke:#333,stroke-width:2px
-    style M fill:#ffb,stroke:#333,stroke-width:2px
+    style I fill:#ffb,stroke:#333,stroke-width:2px
     style P fill:#fdd,stroke:#333,stroke-width:2px
 
 ```
