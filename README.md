@@ -69,14 +69,13 @@ graph TD
     R -- "Used by" --> D
     R -- "Used by" --> G
     R -- "Used by" --> I
-    B --> O
-    C --> N
     
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style D fill:#bbf,stroke:#333,stroke-width:2px
     style G fill:#bfb,stroke:#333,stroke-width:2px
     style M fill:#ffb,stroke:#333,stroke-width:2px
     style P fill:#fdd,stroke:#333,stroke-width:2px
+
 ```
 
 ## Prerequisites
